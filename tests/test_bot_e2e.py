@@ -20,6 +20,10 @@ async def test_report_flow_troll_confirmations_alert_and_moderation():
         assert tg.last(DILSHOD).startswith("Rahmat! Chorsuda kartoshka: bugun 4 500 so'm (2 ta xabar)")
         await tg.photo(DILSHOD)
         assert "Rasm qo'shildi" in tg.last(DILSHOD)
+        before = len(tg.texts(DILSHOD))
+        await tg.tap(DILSHOD, "📝 Yana yuborish")  # a new message: the "Rahmat!" receipt stays in the chat
+        assert len(tg.texts(DILSHOD)) == before + 1 and "Chorsu" in tg.buttons(DILSHOD)
+        assert any(x.startswith("Rahmat! Chorsuda kartoshka: bugun 4 500 so'm") for x in tg.texts(DILSHOD))
         # the troll: a neutral answer; the moderator gets the report with buttons
         await tg.say(TROLL, "/start")
         await tg.tap_data(TROLL, "r:chorsu:kartoshka")

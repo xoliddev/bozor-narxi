@@ -40,7 +40,7 @@ export function makeViews(t) {
       return { html, kb: [[{ text: t(lang, 'btn.confirm', { price: new Raw(money(lang, cell.price)) }), data: `ok:${b.id}:${p.id}` }], back(lang, `r:${b.id}`)] };
     },
     afterReport(lang, out, b, p) {
-      const kb = [[{ text: t(lang, 'btn.again'), data: `r:${b.id}` }, { text: t(lang, 'btn.menu'), data: 'm' }]];
+      const kb = [[{ text: t(lang, 'btn.again'), data: `+r:${b.id}` }, { text: t(lang, 'btn.menu'), data: '+m' }]];
       if (out.status === 'review') return { html: t(lang, 'say.review'), kb };
       const lines = [I.thanks(t, lang, b, p, out.cell)];
       if (out.replaced) lines.push(t(lang, 'rep.replaced'));

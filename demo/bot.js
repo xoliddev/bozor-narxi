@@ -152,9 +152,14 @@ export class BotSim {
   }
 
   press(id, data) {
-    const screen = this.guard(() => this.route(String(data).slice(0, 64)));
+    const s = String(data).slice(0, 64);
+    const keep = s.startsWith('+'); // a receipt's button ("Rahmat!" stays): answer with a new message, don't edit it
+    const screen = this.guard(() => this.route(keep ? s.slice(1) : s));
     if (screen?.error) this.onAlert(strip(screen.error));
-    else if (screen) this.show(id, screen);
+    else if (screen) {
+      if (keep) this.push(screen);
+      else this.show(id, screen);
+    }
   }
 
   /** A typed message: a price or an alert's limit when the bot has just asked for one, otherwise a gentle hint. */
@@ -184,7 +189,7 @@ export class BotSim {
     if (pend?.kind !== 'photo') return this.push(this.menuScreen());
     this.b.setPhoto(this.uid, pend.report, 'demo-photo');
     this.b.setPending(this.uid, null);
-    return this.push({ html: this.t(this.lang, 'rep.photo_ok'), kb: [[{ text: this.t(this.lang, 'btn.again'), data: 'r' }, { text: this.t(this.lang, 'btn.menu'), data: 'm' }]] });
+    return this.push({ html: this.t(this.lang, 'rep.photo_ok'), kb: [[{ text: this.t(this.lang, 'btn.again'), data: '+r' }, { text: this.t(this.lang, 'btn.menu'), data: '+m' }]] });
   }
 
   /** A message the bot sends on its own (a note from the backend). */

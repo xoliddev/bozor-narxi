@@ -56,7 +56,7 @@ def ask_price(lang: str, b: dict, p: dict, cell: dict | None, now: int, today: i
 
 
 def after_report(lang: str, out: dict, b: dict, p: dict) -> Screen:
-    rows = [[{"text": t(lang, "btn.again"), "data": f"r:{b['id']}"}, {"text": t(lang, "btn.menu"), "data": "m"}]]
+    rows = [[{"text": t(lang, "btn.again"), "data": f"+r:{b['id']}"}, {"text": t(lang, "btn.menu"), "data": "+m"}]]
     if out["status"] == "review":
         return t(lang, "say.review"), rows
     lines = [thanks(lang, b, p, out["cell"])]

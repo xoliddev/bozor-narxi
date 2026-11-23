@@ -28,7 +28,7 @@ const offers = (env, uid, data) => env.bots[uid].messages.some((m) => m.kb.some(
 
 /** Open "Narx yuborish" from wherever the chat is: the menu's button, or "🏠 Menyu" first. */
 async function report(env, uid) {
-  if (!offers(env, uid, 'r')) await tap(env, uid, 'm');
+  if (!offers(env, uid, 'r')) await tap(env, uid, offers(env, uid, '+m') ? '+m' : 'm');
   await tap(env, uid, 'r');
 }
 
@@ -122,8 +122,11 @@ const ACTIONS = {
     const { focus, pause } = env;
     if (!env.piyoz) {
       focus(DILSHOD, 'chat');
-      await report(env, DILSHOD);
-      await tap(env, DILSHOD, 'r:chorsu');
+      if (offers(env, DILSHOD, '+r:chorsu')) await tap(env, DILSHOD, '+r:chorsu'); // "Yana yuborish": the receipt stays
+      else {
+        await report(env, DILSHOD);
+        await tap(env, DILSHOD, 'r:chorsu');
+      }
       await tap(env, DILSHOD, 'r:chorsu:piyoz');
       await say(env, DILSHOD, '5800');
       env.piyoz = true;

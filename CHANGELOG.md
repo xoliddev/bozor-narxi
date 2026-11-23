@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1 — 2026-11-23
+
+- The receipt stays in the chat: "📝 Yana yuborish" and "🏠 Menyu" under "Rahmat!" (and under "Rasm qo'shildi") answer
+  with a new message instead of editing the receipt away (callback data starts with `+`). The demo's step 8 uses
+  "Yana yuborish" on the kartoshka receipt, so Dilshod's chat reads in order.
+
 ## 1.0.0 — 2026-11-23
 
 Daily portfolio challenge #9.

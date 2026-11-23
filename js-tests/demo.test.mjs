@@ -101,3 +101,11 @@ test('the API stand-ins answer like the server: roles, errors, no names in publi
   assert.equal(res.who, 'Tez narx');
   assert.throws(() => b.submit(TROLL, 'oloy', 'mol', 110_000), { code: 'banned' });
 });
+
+test('the receipt stays: "Yana yuborish" answers with a new message, so "Rahmat!" is still in the chat', async () => {
+  const { bots, env } = world();
+  await runStep(8, env);
+  const all = texts(bots[DILSHOD]);
+  assert.match(all, /Rahmat! Chorsuda kartoshka: bugun 4 500 so'm/);
+  assert.match(all, /Rahmat! Chorsuda piyoz: bugun 5 800 so'm/);
+});

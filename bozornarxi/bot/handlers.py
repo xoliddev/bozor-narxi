@@ -175,10 +175,11 @@ async def set_alert(me: int, lang: str, svc, notifier, pid: str, limit: object) 
 
 @router.callback_query()
 async def on_button(cb: CallbackQuery, me: int, lang: str, svc, notifier, cfg) -> None:
-    data = cb.data or ""
-    screen = await route(data[:64], me, lang, svc, notifier, cfg, cb)
+    data = (cb.data or "")[:64]
+    keep = data.startswith("+")  # a receipt's button ("Rahmat!" stays): answer with a new message, don't edit it
+    screen = await route(data[1:] if keep else data, me, lang, svc, notifier, cfg, cb)
     if screen is not None:
-        await show(cb, screen, cfg)
+        await show(cb, screen, cfg, new=keep)
 
 
 @router.message(F.text)
@@ -204,7 +205,7 @@ async def on_photo(message: Message, me: int, lang: str, svc, cfg) -> None:
     if pend and pend["kind"] == "photo":
         await svc.set_photo(me, pend["report"], message.photo[-1].file_id)
         await svc.set_pending(me, None)
-        await show(message, (t(lang, "rep.photo_ok"), [[{"text": t(lang, "btn.again"), "data": "r"}, {"text": t(lang, "btn.menu"), "data": "m"}]]), cfg)
+        await show(message, (t(lang, "rep.photo_ok"), [[{"text": t(lang, "btn.again"), "data": "+r"}, {"text": t(lang, "btn.menu"), "data": "+m"}]]), cfg)
         return
     text_, rows = await menu_screen(svc, me, lang, cfg)
     await show(message, (t(lang, "bot.unknown") + "\n\n" + text_, rows), cfg)
