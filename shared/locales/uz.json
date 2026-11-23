@@ -14,6 +14,7 @@
   "unit_long.ten": "10 dona narxi",
   "month.1": "yanvar", "month.2": "fevral", "month.3": "mart", "month.4": "aprel", "month.5": "may", "month.6": "iyun",
   "month.7": "iyul", "month.8": "avgust", "month.9": "sentabr", "month.10": "oktabr", "month.11": "noyabr", "month.12": "dekabr",
+  "mon.1": "yan", "mon.2": "fev", "mon.3": "mar", "mon.4": "apr", "mon.5": "may", "mon.6": "iyn", "mon.7": "iyl", "mon.8": "avg", "mon.9": "sen", "mon.10": "okt", "mon.11": "noy", "mon.12": "dek",
   "cat.all": "Hammasi", "cat.gosht": "Go'sht", "cat.sabzavot": "Sabzavot", "cat.meva": "Meva", "cat.oziq": "Oziq-ovqat",
   "ago.now": "hozirgina",
   "ago.min": "{n} daqiqa oldin",
@@ -193,5 +194,8 @@
   "app.digest": "Har dushanba haftalik sharh yuborilsin",
   "app.mod_lead": "Shubhali xabarlar (bugun va kecha). Yashirilgan xabar narxga ta'sir qilmaydi.",
   "app.list_saved": "Ro'yxat saqlandi",
-  "app.hidden_ok": "Yashirildi"
+  "app.hidden_ok": "Yashirildi",
+  "app.alert_row": "{limit}dan arzon bo'lsa",
+  "app.mod_row": "Odatdagi narx: {ref} · {who} (ishonch {trust}%) · {time}",
+  "app.alerts_title": "Ogohlantirishlar"
 }
