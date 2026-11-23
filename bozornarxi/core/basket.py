@@ -41,7 +41,7 @@ def distance_m(a: tuple[float, float], b: tuple[float, float]) -> int:
     lat = math.radians((a[0] + b[0]) / 2)
     dx = (b[1] - a[1]) * math.cos(lat) * 111_320
     dy = (b[0] - a[0]) * 110_540
-    return int(math.floor(math.sqrt(dx * dx + dy * dy) / 100 + 0.5)) * 100
+    return math.floor(math.sqrt(dx * dx + dy * dy) / 100 + 0.5) * 100
 
 
 def basket(items: list[dict], cells: dict[str, dict], bazaars: list[dict], today: int, here: tuple[float, float] | None = None) -> dict:
