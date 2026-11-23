@@ -80,3 +80,9 @@ export const reducedMotion = () => window.matchMedia?.('(prefers-reduced-motion:
 /** Bazaar colours on the chart (fixed per bazaar, so a bazaar keeps its colour everywhere). */
 export const COLORS = { chorsu: '#d9480f', oloy: '#1864ab', mirobod: '#7048e8', yunusobod: '#0b7285', quyliq: '#b35c00', farhod: '#c2255c',
   kadisha: '#2b8a3e', parkent: '#5c7f00' };
+
+/** replaceChildren() that skips null, false and empty strings (replaceChildren would print "null"). */
+export function fill(el, ...kids) {
+  el.replaceChildren(...kids.flat(Infinity).filter((k) => k !== null && k !== undefined && k !== false && k !== ''));
+  return el;
+}

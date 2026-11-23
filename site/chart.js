@@ -3,7 +3,7 @@
 // that follows the finger or the mouse.
 import { civil } from '../shared/clock.js';
 import { group } from '../shared/i18n.js';
-import { COLORS, h, s } from './util.js';
+import { COLORS, fill, h, s } from './util.js';
 
 const W = 640;
 const H = 250;
@@ -70,7 +70,7 @@ export function chart({ series, first, last, sel, P, lang, money, bname }) {
     rule.setAttribute('visibility', 'visible');
     const [, m, dd] = civil(p.day);
     const extra = sel.filter((b) => p.by[b]).map((b) => `${bname(b)}: ${money(p.by[b])}`);
-    tip.replaceChildren(h('b', {}, `${dd}-${P(`month.${m}`)}`), h('span', {}, `${P('site.city_line')}: ${money(p.city)}`),
+    fill(tip, h('b', {}, `${dd}-${P(`month.${m}`)}`), h('span', {}, `${P('site.city_line')}: ${money(p.city)}`),
       h('span', { class: 'muted' }, `${money(p.lo)} – ${money(p.hi)}`), ...extra.map((x) => h('span', {}, x)));
     tip.hidden = false;
     tip.style.left = `${Math.min(70, Math.max(0, (X(p.day) / W) * 100 - 15))}%`;

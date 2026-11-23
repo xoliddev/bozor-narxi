@@ -1,7 +1,7 @@
 // The bazaars: a list with how many prices each has today, and one bazaar's prices against the city median.
 import { confText, shortSaving } from '../shared/i18n.js';
 import { confidence, fresh, whereCheap } from '../shared/prices.js';
-import { h } from './util.js';
+import { fill, h } from './util.js';
 
 export function pageBazaars(ctx) {
   const title = h('h1');
@@ -12,7 +12,7 @@ export function pageBazaars(ctx) {
     const { snap } = ctx;
     title.textContent = ctx.P('site.bazaars_title');
     lead.textContent = ctx.P('site.bazaars_lead');
-    grid.replaceChildren(...ctx.bazaars.map((b) => {
+    fill(grid, ...ctx.bazaars.map((b) => {
       const n = ctx.products.filter((p) => fresh(snap.cells[b.id]?.[p.id], snap.today)).length;
       const cheapest = ctx.products.filter((p) => whereCheap(p.id, snap.cells, ctx.bazaars, snap.today).best === b.id).map((p) => ctx.name(p).toLowerCase());
       return ctx.link(`b/${b.id}`, { class: 'bcard', 'data-testid': `bazaar-${b.id}` }, h('b', {}, ctx.name(b)),
@@ -36,7 +36,7 @@ export function pageBazaar(ctx, bid) {
     back.textContent = `⬅️ ${ctx.P('site.nav_bazaars')}`;
     title.textContent = ctx.P('site.bazaar_title', { bazaar: ctx.name(b) });
     lead.textContent = ctx.P('site.bazaar_lead');
-    list.replaceChildren(...ctx.products.map((p) => {
+    fill(list, ...ctx.products.map((p) => {
       const wc = whereCheap(p.id, snap.cells, ctx.bazaars, snap.today);
       const r = wc.rows.find((x) => x.bazaar === bid);
       return h('div', { class: `rrow${wc.best === bid ? ' top' : ''}`, 'data-testid': `bp-${p.id}` },

@@ -3,7 +3,7 @@
 import { changeText, cheapLine, confText, shortSaving } from '../shared/i18n.js';
 import { confidence, whereCheap } from '../shared/prices.js';
 import { chart } from './chart.js';
-import { COLORS, h } from './util.js';
+import { COLORS, fill, h } from './util.js';
 
 export function pageProduct(ctx, pid) {
   const p = ctx.pmap[pid];
@@ -33,12 +33,12 @@ export function pageProduct(ctx, pid) {
   function paintChart(wc, today) {
     if (state.sel === null) state.sel = wc.best ? [wc.best] : [];
     const first = today - state.days + 1;
-    chartBox.replaceChildren(chart({ series: state.series, first, last: today, sel: state.sel, P: ctx.P, lang: ctx.lang, money: ctx.money,
+    fill(chartBox, chart({ series: state.series, first, last: today, sel: state.sel, P: ctx.P, lang: ctx.lang, money: ctx.money,
       bname: (b) => ctx.name(ctx.bmap[b]) }));
-    range.replaceChildren(...[30, 90].map((d) => h('button', { type: 'button', class: state.days === d ? 'on' : '', 'data-testid': `days-${d}`,
+    fill(range, ...[30, 90].map((d) => h('button', { type: 'button', class: state.days === d ? 'on' : '', 'data-testid': `days-${d}`,
       onclick: async () => { state.days = d; await update(); } }, ctx.P(`site.days${d}`))));
-    legend.replaceChildren(h('span', { class: 'lg city' }, ctx.P('site.city_line')), h('span', { class: 'lg band' }, ctx.P('site.band')));
-    toggles.replaceChildren(h('span', { class: 'btoggle-title' }, ctx.P('site.toggle')), ...ctx.bazaars.filter((b) => !b.none.includes(pid)).map((b) => {
+    fill(legend, h('span', { class: 'lg city' }, ctx.P('site.city_line')), h('span', { class: 'lg band' }, ctx.P('site.band')));
+    fill(toggles, h('span', { class: 'btoggle-title' }, ctx.P('site.toggle')), ...ctx.bazaars.filter((b) => !b.none.includes(pid)).map((b) => {
       const on = state.sel.includes(b.id);
       return h('button', { type: 'button', class: `btoggle${on ? ' on' : ''}`, 'aria-pressed': String(on), 'data-testid': `toggle-${b.id}`,
         style: { '--c': COLORS[b.id] }, onclick: () => {
@@ -54,18 +54,18 @@ export function pageProduct(ctx, pid) {
     const wc = whereCheap(pid, snap.cells, ctx.bazaars, today);
     await loadSeries();
     el.firstChild.textContent = ctx.P('site.back');
-    head.replaceChildren(h('h1', {}, ctx.name(p)), h('span', { class: 'unit' }, ctx.P(`unit_long.${p.unit}`)));
+    fill(head, h('h1', {}, ctx.name(p)), h('span', { class: 'unit' }, ctx.P(`unit_long.${p.unit}`)));
     const best = wc.rows[0];
     headline.textContent = best ? `✅ ${cheapLine(ctx.T, ctx.lang, ctx.bmap[best.bazaar], p, best)}` : ctx.P('cheap.none');
     const pct = snap.week[pid];
-    stats.replaceChildren(
+    fill(stats, 
       h('div', { class: 'stat' }, h('span', {}, ctx.P('site.col_city')), h('b', { 'data-testid': 'city' }, wc.city ? ctx.money(wc.city) : '—')),
       h('div', { class: 'stat' }, h('span', {}, ctx.P('site.col_best')), h('b', { 'data-testid': 'best' }, best ? ctx.money(best.price) : '—')),
       h('div', { class: `stat ${pct < 0 ? 'down' : pct > 0 ? 'up' : ''}` }, h('span', {}, ctx.P('site.col_week')),
         h('b', { 'data-testid': 'week' }, changeText(ctx.T, ctx.lang, pct) || '—')));
     rankTitle.textContent = ctx.P('site.where');
     chartTitle.textContent = ctx.P('site.chart');
-    rank.replaceChildren(...wc.rows.map((r, i) => h('div', { class: `rrow${i === 0 ? ' top' : ''}`, 'data-testid': `rank-${r.bazaar}` },
+    fill(rank, ...wc.rows.map((r, i) => h('div', { class: `rrow${i === 0 ? ' top' : ''}`, 'data-testid': `rank-${r.bazaar}` },
       h('span', { class: 'ri' }, String(i + 1)),
       ctx.link(`b/${r.bazaar}`, { class: 'rname' }, ctx.name(ctx.bmap[r.bazaar])),
       h('b', { class: 'rprice', 'data-testid': `price-${r.bazaar}` }, ctx.per(p, r.price)),
@@ -73,7 +73,7 @@ export function pageProduct(ctx, pid) {
       h('span', { class: `conf lv-${r.level}`, 'data-testid': `conf-${r.bazaar}` }, confText(ctx.T, ctx.lang, confidence(r, ctx.now(), today))))),
     wc.rows.length ? null : h('p', { class: 'empty' }, ctx.P('cheap.none')));
     const alertText = ctx.P('btn.alert_this');
-    cta.replaceChildren(ctx.onAlert ? h('button', { type: 'button', class: 'btn', 'data-testid': 'alert-this', onclick: () => ctx.onAlert(pid) }, alertText)
+    fill(cta, ctx.onAlert ? h('button', { type: 'button', class: 'btn', 'data-testid': 'alert-this', onclick: () => ctx.onAlert(pid) }, alertText)
       : ctx.bot ? h('a', { class: 'btn', href: `https://t.me/${ctx.bot}?start=al_${pid}`, target: '_blank', rel: 'noopener' }, alertText) : '');
     paintChart(wc, today);
   }

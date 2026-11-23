@@ -3,7 +3,7 @@
 // no price at a bazaar. The same core function as the bot (shared/basket.js).
 import { basket } from '../shared/basket.js';
 import { amount, bestText, km } from '../shared/i18n.js';
-import { h, toast } from './util.js';
+import { fill, h, toast } from './util.js';
 
 const DEFAULT_QTY = { kg: 10, l: 10, ten: 10 };
 
@@ -35,7 +35,7 @@ export function pageList(ctx) {
   }
 
   function paintItems() {
-    box.replaceChildren(...state.items.map((it) => {
+    fill(box, ...state.items.map((it) => {
       const p = ctx.pmap[it.product];
       return h('div', { class: 'litem', 'data-testid': `item-${p.id}` }, h('span', { class: 'lname' }, ctx.name(p)),
         h('span', { class: 'stepper' },
@@ -46,7 +46,7 @@ export function pageList(ctx) {
     }), state.items.length ? null : h('p', { class: 'empty' }, ctx.P('site.list_empty')));
     const have = new Set(state.items.map((x) => x.product));
     addTitle.textContent = ctx.P('site.list_add');
-    add.replaceChildren(...ctx.products.filter((p) => !have.has(p.id)).map((p) => h('button', { type: 'button', class: 'chip', 'data-testid': `add-${p.id}`,
+    fill(add, ...ctx.products.filter((p) => !have.has(p.id)).map((p) => h('button', { type: 'button', class: 'chip', 'data-testid': `add-${p.id}`,
       disabled: state.items.length >= 20, onclick: () => {
         state.items = [...state.items, { product: p.id, qty: DEFAULT_QTY[p.unit] }];
         paint();
@@ -60,7 +60,7 @@ export function pageList(ctx) {
     const locate = ctx.geo || navigator.geolocation ? h('button', { type: 'button', class: 'btn ghost', 'data-testid': 'locate', disabled: state.locating,
       onclick: locateMe }, state.here ? ctx.P('site.located') : state.locating ? ctx.P('site.locating') : ctx.P('site.locate')) : null;
     if (!state.items.length) {
-      result.replaceChildren(h('h2', {}, ctx.P('site.list_where')), h('p', { class: 'empty' }, ctx.P('site.list_empty')));
+      fill(result, h('h2', {}, ctx.P('site.list_where')), h('p', { class: 'empty' }, ctx.P('site.list_empty')));
       return;
     }
     const row = (r, i, top) => h('div', { class: `lrow${top ? ' top' : ''}`, 'data-testid': `total-${r.bazaar}` },
@@ -69,7 +69,7 @@ export function pageList(ctx) {
       r.missing.length ? h('small', { class: 'lmiss' }, `⚠️ ${ctx.P('site.list_missing', { items: r.missing.map((x) => ctx.name(ctx.pmap[x]).toLowerCase()).join(', ') })}`) : null);
     const full = res.rows.filter((r) => !r.missing.length);
     const part = res.rows.filter((r) => r.missing.length);
-    result.replaceChildren(h('h2', {}, ctx.P('site.list_where')),
+    fill(result, h('h2', {}, ctx.P('site.list_where')),
       res.best ? h('p', { class: 'lbest', 'data-testid': 'list-best' }, `✅ ${bestText(ctx.T, ctx.lang, ctx.bmap[res.best], res.best_total, res.saving)}`)
         : h('p', { class: 'lbest none', 'data-testid': 'list-best' }, ctx.P('list.no_best')),
       locate, state.note ? h('p', { class: 'muted' }, state.note) : null,

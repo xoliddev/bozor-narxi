@@ -16,17 +16,6 @@ html, body { height: 100%; }
 .mtab.on { color: var(--brand); }
 .mtab.on .mtab-i { filter: none; }
 .mapp .site.bare .hero h1 { font-size: 21px; }
-.mapp .best-cards { grid-template-columns: 1fr; gap: 8px; }
-.mapp .prow { grid-template-columns: 1fr 1fr; gap: 4px 10px; padding: 10px 12px; }
-.mapp .prow.head { display: none; }
-.mapp .pname { grid-column: 1 / -1; }
-.mapp .pcity::before, .mapp .pbest::before { content: attr(data-label); display: block; color: var(--muted); font-size: 11px; font-weight: 600; }
-.mapp .pweek { grid-column: 1 / -1; }
-.mapp .list-grid, .mapp .bgrid, .mapp .week-cols { grid-template-columns: 1fr; }
-.mapp .rrow { grid-template-columns: 26px 1fr auto; gap: 2px 8px; }
-.mapp .rrow .rsave, .mapp .rrow .conf { grid-column: 2 / -1; }
-.mapp .stats { grid-template-columns: 1fr 1fr; }
-.mapp .stats .stat:last-child { grid-column: 1 / -1; }
 .field { display: grid; gap: 4px; margin: 10px 0; }
 .field span { font-size: 13px; color: var(--muted); font-weight: 650; }
 .field select, .field input { border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; font: inherit; background: var(--card); color: var(--ink); }

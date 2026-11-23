@@ -24,6 +24,14 @@ async function say(env, uid, text) {
   else env.bots[uid].type(text);
 }
 
+const offers = (env, uid, data) => env.bots[uid].messages.some((m) => m.kb.some((row) => row.some((b) => b.data === data)));
+
+/** Open "Narx yuborish" from wherever the chat is: the menu's button, or "🏠 Menyu" first. */
+async function report(env, uid) {
+  if (!offers(env, uid, 'r')) await tap(env, uid, 'm');
+  await tap(env, uid, 'r');
+}
+
 function started(env, uid) {
   if (!env.bots[uid].messages.length) env.bots[uid].start();
 }
@@ -41,7 +49,7 @@ const ACTIONS = {
     const { focus, pause } = env;
     if (!env.reported) {
       focus(DILSHOD, 'chat');
-      await tap(env, DILSHOD, 'r');
+      await report(env, DILSHOD);
       await tap(env, DILSHOD, 'r:chorsu');
       await tap(env, DILSHOD, 'r:chorsu:kartoshka');
       await pause(700);
@@ -114,7 +122,7 @@ const ACTIONS = {
     const { focus, pause } = env;
     if (!env.piyoz) {
       focus(DILSHOD, 'chat');
-      await tap(env, DILSHOD, 'r');
+      await report(env, DILSHOD);
       await tap(env, DILSHOD, 'r:chorsu');
       await tap(env, DILSHOD, 'r:chorsu:piyoz');
       await say(env, DILSHOD, '5800');

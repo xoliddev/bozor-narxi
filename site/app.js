@@ -7,7 +7,7 @@ import { pageList } from './p-list.js';
 import { pageProduct } from './p-product.js';
 import { pageToday } from './p-today.js';
 import { pageWeek } from './p-week.js';
-import { h, makeText } from './util.js';
+import { fill, h, makeText } from './util.js';
 
 const LOGO = '<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 13h20l-2.2 11.2a3 3 0 0 1-3 2.4h-9.6a3 3 0 0 1-3-2.4z" fill="currentColor"/>'
   + '<path d="M11 13l4-7M21 13l-4-7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" fill="none"/>'
@@ -43,7 +43,7 @@ export function mountSite(root, opts) {
     h('nav', { class: 'site-nav' }, navLinks.map((x) => x.el)), langBtn));
   const foot = h('footer', { class: 'site-foot' });
   const shell = h('div', { class: `site${ctx.chrome ? '' : ' bare'}`, 'data-testid': 'site' }, ctx.chrome ? header : null, main, ctx.chrome ? foot : null);
-  root.replaceChildren(shell);
+  fill(root, shell);
   ctx.scrollTop = () => (ctx.memory ? (root.closest('.win-body') ?? root) : document.scrollingElement)?.scrollTo?.({ top: 0 });
 
   function paintChrome() {
@@ -64,8 +64,9 @@ export function mountSite(root, opts) {
     page?.destroy?.();
     path = m[0];
     page = fn(ctx, m[1]);
-    main.replaceChildren(page.el);
+    fill(main, page.el);
     paintChrome();
+    opts.onRoute?.(path);
     ctx.scrollTop();
     page.ready = ctx.snap ? Promise.resolve(page.update()) : refresh();
     return page.ready;

@@ -3,7 +3,7 @@
 // since the last refresh flashes once.
 import { confText, changeText, dateShort, changeLine, shortSaving } from '../shared/i18n.js';
 import { confidence, digest, whereCheap } from '../shared/prices.js';
-import { h } from './util.js';
+import { fill, h } from './util.js';
 
 const FEATURED = ['kartoshka', 'piyoz', 'mol'];
 const CATS = ['all', 'gosht', 'sabzavot', 'meva', 'oziq'];
@@ -34,7 +34,7 @@ export function pageToday(ctx) {
 
   function paintCards() {
     const { snap } = ctx;
-    cards.replaceChildren(...FEATURED.map((pid) => {
+    fill(cards, ...FEATURED.map((pid) => {
       const p = ctx.pmap[pid];
       const wc = rows[pid];
       const best = wc.rows[0];
@@ -53,7 +53,7 @@ export function pageToday(ctx) {
     const list = ctx.products.filter((p) => (state.cat === 'all' || p.cat === state.cat)
       && (!state.q || ctx.name(p).toLowerCase().includes(state.q) || p.uz.toLowerCase().includes(state.q)));
     const head = h('div', { class: 'prow head' }, ['site.col_product', 'site.col_city', 'site.col_best', 'site.col_week'].map((k) => h('span', {}, ctx.P(k))));
-    table.replaceChildren(head, ...list.map((p) => {
+    fill(table, head, ...list.map((p) => {
       const wc = rows[p.id];
       const best = wc.rows[0];
       const pct = snap.week[p.id];
@@ -74,10 +74,10 @@ export function pageToday(ctx) {
     title.textContent = ctx.P('site.tagline');
     lead.textContent = ctx.P('site.lead', { date: dateShort(ctx.T, ctx.lang, snap.today), n: ctx.bazaars.length });
     search.placeholder = ctx.P('site.search');
-    chips.replaceChildren(...CATS.map((c) => h('button', { type: 'button', class: `chip${state.cat === c ? ' on' : ''}`, 'data-testid': `cat-${c}`,
+    fill(chips, ...CATS.map((c) => h('button', { type: 'button', class: `chip${state.cat === c ? ' on' : ''}`, 'data-testid': `cat-${c}`,
       onclick: () => { state.cat = c; update(); } }, ctx.P(`cat.${c}`))));
     const dg = digest(snap.week);
-    strip.replaceChildren(dg.down.length ? ctx.link('week', { class: 'week-link', 'data-testid': 'week-strip' }, '📉 ',
+    fill(strip, dg.down.length ? ctx.link('week', { class: 'week-link', 'data-testid': 'week-strip' }, '📉 ',
       `${ctx.P('wk.down')}: ${dg.down.map(([pid, pct]) => changeLine(ctx.lang, ctx.pmap[pid], pct)).join(', ')}`) : '');
     paintCards();
     paintTable();

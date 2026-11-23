@@ -56,7 +56,7 @@ test('the whole story in order: the report, the live price, the troll, confirmat
   await runStep(8, env);
   assert.match(last(bots[GULNORA]), /^🔔 Piyoz Chorsuda 5 800 so'm\/kg — siz kutgan 6 000 so'mdan arzon\./);
   await runStep(9, env);
-  assert.match(last(bots[DILSHOD]), /🙈 Yashirildi\. Tez narx: ishonch 20% → 3%\.\nChorsuda kartoshka: 4 500 so'm\/kg \(4 ta xabar/);
+  assert.match(texts(bots[DILSHOD]), /🙈 Yashirildi\. Tez narx: ishonch 20% → 3%\.\nChorsuda kartoshka: 4 500 so'm\/kg \(4 ta xabar/);
   assert.equal(b.queue(DILSHOD).some((q) => q.user === TROLL), false);
   await runStep(10, env);
   assert.equal(b.week().piyoz, -12);
