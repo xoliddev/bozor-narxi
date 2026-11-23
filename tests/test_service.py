@@ -21,7 +21,7 @@ async def test_the_story_on_the_service():
         out, notes = await svc.submit(DILSHOD, "chorsu", "kartoshka", "4 500")
         assert (out["status"], out["cell"]["price"], out["cell"]["n"], notes) == ("ok", 4500, 2, [])
         clock.skip(minutes=1)
-        out, notes = await svc.submit(TROLL, "chorsu", "kartoshka", 1000)
+        out, notes = await svc.submit(TROLL, "chorsu", "kartoshka", 500)
         assert out["status"] == "review" and out["cell"] is None
         assert notes == [{"to": DILSHOD, "kind": "mod", "report": out["report"]}]
         assert (await svc.cell(svc.db.conn, "chorsu", "kartoshka"))["price"] == 4500, "the troll does not move the price"

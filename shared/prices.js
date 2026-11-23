@@ -4,15 +4,16 @@ import { InputError } from './text.js';
 import { fdiv, level, median, rdiv, roundTo } from './trust.js';
 
 const WORDS = /(so['‘’`]?m|сум|sum)\.?/giu;
-const GROUPED = /^\d{1,3}(?:[ .,'’]\d{3})+$/;
-const PLAIN = /^\d{1,9}$/;
+const LEAD = /^[^0-9]*?\s(?=[0-9])/u;
+const GROUPED = /^[0-9]{1,3}(?:[ .,'’][0-9]{3})+$/;
+const PLAIN = /^[0-9]{1,9}$/;
 export const FRESH_DAYS = 1;
 export const MAX_REPORTS_PER_DAY = 40;
 
 export function parsePrice(text) {
   if (typeof text !== 'string') throw new InputError('price_format');
-  let s = text.trim().replace(WORDS, '').trim();
-  if (GROUPED.test(s)) s = s.replace(/\D/g, '');
+  let s = text.trim().replace(WORDS, '').trim().replace(LEAD, '');
+  if (GROUPED.test(s)) s = s.replace(/[^0-9]/g, '');
   if (!PLAIN.test(s)) throw new InputError('price_format');
   return Number(s);
 }

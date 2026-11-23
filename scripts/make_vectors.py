@@ -86,7 +86,7 @@ def trust_cases(v: dict) -> None:
 
 
 def price_cases(v: dict, products: dict) -> None:
-    texts = ["4500", "4 500", "4.500", "4,500", "4 500 so'm", "4500 сум", " 12 000 sum ", "4,5", "4 50", "abc", "", "1234567890", "112 000"]
+    texts = ["4500", "4 500", "4.500", "4,500", "4 500 so'm", "4500 сум", " 12 000 sum ", "4,5", "4 50", "abc", "", "1234567890", "112 000", "kartoshka 500", "Kartoshka: 4 500 so'm", "-500", "٤٥٠٠", "4500abc"]
     v["parse"] = [{"in": s, "out": res(prices.parse_price, s)} for s in texts]
     kart = products["kartoshka"]
     v["check"] = [{"in": x, "out": res(prices.check_price, kart, x)} for x in (4500, "4 500", 500, 999, 30_000, 30_001, True, 4.5, "x")]

@@ -2159,6 +2159,36 @@
    "out": {
     "ok": 112000
    }
+  },
+  {
+   "in": "kartoshka 500",
+   "out": {
+    "ok": 500
+   }
+  },
+  {
+   "in": "Kartoshka: 4 500 so'm",
+   "out": {
+    "ok": 4500
+   }
+  },
+  {
+   "in": "-500",
+   "out": {
+    "error": "price_format"
+   }
+  },
+  {
+   "in": "٤٥٠٠",
+   "out": {
+    "error": "price_format"
+   }
+  },
+  {
+   "in": "4500abc",
+   "out": {
+    "error": "price_format"
+   }
   }
  ],
  "check": [
@@ -2177,13 +2207,13 @@
   {
    "in": 500,
    "out": {
-    "error": "price_range"
+    "ok": 500
    }
   },
   {
    "in": 999,
    "out": {
-    "error": "price_range"
+    "ok": 999
    }
   },
   {
@@ -2364,7 +2394,7 @@
    },
    "digest": {
     "users": 1864068535,
-    "reports": 4212043929,
+    "reports": 426082132,
     "daily": 5363682
    },
    "reports": [
@@ -2436,7 +2466,7 @@
    },
    "digest": {
     "users": 1864068535,
-    "reports": 879203730,
+    "reports": 2436022967,
     "daily": 3890946225
    },
    "reports": [
@@ -2508,7 +2538,7 @@
    },
    "digest": {
     "users": 137777650,
-    "reports": 827178784,
+    "reports": 3268966893,
     "daily": 3205981292
    },
    "reports": [
@@ -2580,7 +2610,7 @@
    },
    "digest": {
     "users": 3046794139,
-    "reports": 872048304,
+    "reports": 732301861,
     "daily": 152371609
    },
    "reports": [

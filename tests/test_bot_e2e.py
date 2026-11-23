@@ -23,10 +23,10 @@ async def test_report_flow_troll_confirmations_alert_and_moderation():
         # the troll: a neutral answer; the moderator gets the report with buttons
         await tg.say(TROLL, "/start")
         await tg.tap_data(TROLL, "r:chorsu:kartoshka")
-        await tg.say(TROLL, "1000")
+        await tg.say(TROLL, "kartoshka 500")
         assert tg.last(TROLL).startswith("Tekshiruvga yuborildi")
         assert "🛡 Shubhali" not in tg.last(TROLL)
-        assert "Chorsu · Kartoshka: 1 000 so'm/kg" in tg.last(DILSHOD) and "Tez narx (ishonch 20%)" in tg.last(DILSHOD)
+        assert "Chorsu · Kartoshka: 500 so'm/kg" in tg.last(DILSHOD) and "Tez narx (ishonch 20%)" in tg.last(DILSHOD)
         # two people confirm the shown price with one tap
         for uid in CONFIRM:
             await tg.say(uid, "/start")

@@ -10,19 +10,20 @@ from .text import InputError
 from .trust import level, median, rdiv, round_to
 
 WORDS = re.compile(r"(so['‘’`]?m|сум|sum)\.?", re.IGNORECASE)
-GROUPED = re.compile(r"\d{1,3}(?:[ .,'’]\d{3})+")
-PLAIN = re.compile(r"\d{1,9}")
+LEAD = re.compile(r"^[^0-9]*?\s(?=[0-9])")
+GROUPED = re.compile(r"[0-9]{1,3}(?:[ .,'’][0-9]{3})+")
+PLAIN = re.compile(r"[0-9]{1,9}")
 FRESH_DAYS = 1  # today's price, or yesterday's when nobody has reported today yet
 MAX_REPORTS_PER_DAY = 40
 
 
 def parse_price(text: object) -> int:
-    """"4 500", "4500", "4.500", "4 500 so'm" -> 4500. Decimals ("4,5") are refused: prices are whole so'm."""
+    """"4 500", "4500", "4.500", "4 500 so'm", "kartoshka 4500" -> 4500. Decimals ("4,5") are refused: prices are whole so'm."""
     if not isinstance(text, str):
         raise InputError("price_format")
-    s = WORDS.sub("", text.strip()).strip()
+    s = LEAD.sub("", WORDS.sub("", text.strip()).strip())
     if GROUPED.fullmatch(s):
-        s = re.sub(r"\D", "", s)
+        s = re.sub(r"[^0-9]", "", s)
     if not PLAIN.fullmatch(s):
         raise InputError("price_format")
     return int(s)

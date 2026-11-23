@@ -57,7 +57,7 @@ def test_prices_parse_and_check():
         with pytest.raises(InputError):
             prices.parse_price(bad)
     with pytest.raises(InputError, match="price_range"):
-        prices.check_price(PMAP["kartoshka"], 500)
+        prices.check_price(PMAP["kartoshka"], 200)
     with pytest.raises(InputError):
         prices.check_price(PMAP["kartoshka"], True)
 
