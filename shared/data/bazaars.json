@@ -1,0 +1,10 @@
+[
+  {"id": "chorsu", "uz": "Chorsu", "ru": "Чорсу", "uz_loc": "Chorsuda", "ru_loc": "на Чорсу", "lat": 41.3265, "lon": 69.2355, "level": {"gosht": 985, "sabzavot": 900, "meva": 950, "oziq": 990}, "none": []},
+  {"id": "oloy", "uz": "Oloy", "ru": "Алайский", "uz_loc": "Oloyda", "ru_loc": "на Алайском", "lat": 41.3189, "lon": 69.2797, "level": {"gosht": 940, "sabzavot": 1040, "meva": 1050, "oziq": 985}, "none": []},
+  {"id": "mirobod", "uz": "Mirobod", "ru": "Мирабад", "uz_loc": "Mirobodda", "ru_loc": "на Мирабадском", "lat": 41.2945, "lon": 69.2797, "level": {"gosht": 1000, "sabzavot": 1030, "meva": 1010, "oziq": 1005}, "none": []},
+  {"id": "yunusobod", "uz": "Yunusobod", "ru": "Юнусабад", "uz_loc": "Yunusobodda", "ru_loc": "на Юнусабадском", "lat": 41.364, "lon": 69.286, "level": {"gosht": 1040, "sabzavot": 1060, "meva": 1050, "oziq": 1020}, "none": ["devzira"]},
+  {"id": "quyliq", "uz": "Qo'yliq", "ru": "Куйлюк", "uz_loc": "Qo'yliqda", "ru_loc": "на Куйлюке", "lat": 41.2423, "lon": 69.3343, "level": {"gosht": 1000, "sabzavot": 950, "meva": 940, "oziq": 980}, "none": []},
+  {"id": "farhod", "uz": "Farhod", "ru": "Фарход", "uz_loc": "Farhodda", "ru_loc": "на Фарходе", "lat": 41.2935, "lon": 69.2005, "level": {"gosht": 1010, "sabzavot": 990, "meva": 1000, "oziq": 1000}, "none": []},
+  {"id": "kadisha", "uz": "Chilonzor (Kadisha)", "ru": "Чиланзар (Кадиша)", "uz_loc": "Kadishada", "ru_loc": "на Кадише", "lat": 41.276, "lon": 69.2045, "level": {"gosht": 1020, "sabzavot": 1000, "meva": 1000, "oziq": 995}, "none": []},
+  {"id": "parkent", "uz": "Parkent", "ru": "Паркент", "uz_loc": "Parkentda", "ru_loc": "на Паркентском", "lat": 41.3247, "lon": 69.338, "level": {"gosht": 1030, "sabzavot": 1010, "meva": 990, "oziq": 1010}, "none": ["devzira", "qoy"]}
+]

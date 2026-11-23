@@ -1,0 +1,5895 @@
+{
+ "now": 1795000000000,
+ "today": 20775,
+ "nye": 20819,
+ "minute": 640,
+ "civil": [
+  {
+   "day": 0,
+   "out": [
+    1970,
+    1,
+    1
+   ],
+   "back": 0
+  },
+  {
+   "day": 20775,
+   "out": [
+    2026,
+    11,
+    18
+   ],
+   "back": 20775
+  },
+  {
+   "day": 20818,
+   "out": [
+    2026,
+    12,
+    31
+   ],
+   "back": 20818
+  },
+  {
+   "day": 20819,
+   "out": [
+    2027,
+    1,
+    1
+   ],
+   "back": 20819
+  },
+  {
+   "day": 21243,
+   "out": [
+    2028,
+    2,
+    29
+   ],
+   "back": 21243
+  }
+ ],
+ "minutes": [
+  {
+   "ms": 1795000000000,
+   "day": 20775,
+   "min": 966
+  },
+  {
+   "ms": 1798743599999,
+   "day": 20818,
+   "min": 1439
+  },
+  {
+   "ms": 1798743600000,
+   "day": 20819,
+   "min": 0
+  },
+  {
+   "ms": 0,
+   "day": 0,
+   "min": 300
+  }
+ ],
+ "h32": [
+  {
+   "in": "",
+   "out": 2166136261
+  },
+  {
+   "in": "a",
+   "out": 3826002220
+  },
+  {
+   "in": "n:3:chorsu:kartoshka",
+   "out": 1261734220
+  },
+  {
+   "in": "Qo'yliq",
+   "out": 1572473705
+  },
+  {
+   "in": "Картофель",
+   "out": 2745461841
+  }
+ ],
+ "rdiv": [
+  [
+   5,
+   2,
+   3
+  ],
+  [
+   -5,
+   2,
+   -3
+  ],
+  [
+   7,
+   3,
+   2
+  ],
+  [
+   -7,
+   3,
+   -2
+  ],
+  [
+   1,
+   3,
+   0
+  ],
+  [
+   -1,
+   2,
+   -1
+  ],
+  [
+   0,
+   9,
+   0
+  ],
+  [
+   1199,
+   12,
+   100
+  ]
+ ],
+ "round_to": [
+  [
+   4549,
+   100,
+   4500
+  ],
+  [
+   4550,
+   100,
+   4600
+  ],
+  [
+   112499,
+   1000,
+   112000
+  ],
+  [
+   112500,
+   1000,
+   113000
+  ],
+  [
+   16249,
+   500,
+   16000
+  ]
+ ],
+ "weight": [
+  [
+   0,
+   0,
+   0,
+   0,
+   300
+  ],
+  [
+   10,
+   0,
+   0,
+   0,
+   800
+  ],
+  [
+   40,
+   0,
+   0,
+   0,
+   1500
+  ],
+  [
+   3,
+   2,
+   0,
+   0,
+   150
+  ],
+  [
+   0,
+   0,
+   1,
+   0,
+   50
+  ],
+  [
+   50,
+   0,
+   0,
+   1,
+   0
+  ],
+  [
+   5,
+   1,
+   1,
+   0,
+   50
+  ]
+ ],
+ "trust_pct": [
+  [
+   0,
+   0
+  ],
+  [
+   50,
+   3
+  ],
+  [
+   300,
+   20
+  ],
+  [
+   1000,
+   67
+  ],
+  [
+   1500,
+   100
+  ]
+ ],
+ "wmedian": [
+  {
+   "in": [
+    [
+     4500,
+     1500,
+     1
+    ],
+    [
+     4900,
+     300,
+     2
+    ]
+   ],
+   "out": 4500
+  },
+  {
+   "in": [
+    [
+     4400,
+     500,
+     1
+    ],
+    [
+     4800,
+     500,
+     2
+    ]
+   ],
+   "out": 4600
+  },
+  {
+   "in": [
+    [
+     1,
+     1,
+     3
+    ],
+    [
+     2,
+     1,
+     2
+    ],
+    [
+     3,
+     1,
+     1
+    ]
+   ],
+   "out": 2
+  },
+  {
+   "in": [
+    [
+     10,
+     5,
+     1
+    ],
+    [
+     20,
+     1,
+     2
+    ],
+    [
+     30,
+     1,
+     3
+    ],
+    [
+     40,
+     1,
+     4
+    ]
+   ],
+   "out": 10
+  },
+  {
+   "in": [
+    [
+     7,
+     2,
+     9
+    ],
+    [
+     7,
+     2,
+     4
+    ],
+    [
+     9,
+     4,
+     1
+    ]
+   ],
+   "out": 8
+  }
+ ],
+ "median": [
+  [
+   [],
+   null
+  ],
+  [
+   [
+    5
+   ],
+   5
+  ],
+  [
+   [
+    4,
+    1
+   ],
+   2
+  ],
+  [
+   [
+    3,
+    1,
+    2
+   ],
+   2
+  ],
+  [
+   [
+    10,
+    20,
+    30,
+    41
+   ],
+   25
+  ]
+ ],
+ "reference": [
+  {
+   "rows": [
+    {
+     "bazaar": "chorsu",
+     "day": 20774,
+     "price": 4900
+    },
+    {
+     "bazaar": "oloy",
+     "day": 20773,
+     "price": 5600
+    },
+    {
+     "bazaar": "oloy",
+     "day": 20766,
+     "price": 9000
+    },
+    {
+     "bazaar": "quyliq",
+     "day": 20772,
+     "price": 5200
+    }
+   ],
+   "bazaar": "chorsu",
+   "day": 20775,
+   "out": 4900
+  },
+  {
+   "rows": [
+    {
+     "bazaar": "chorsu",
+     "day": 20774,
+     "price": 4900
+    },
+    {
+     "bazaar": "oloy",
+     "day": 20773,
+     "price": 5600
+    },
+    {
+     "bazaar": "oloy",
+     "day": 20766,
+     "price": 9000
+    },
+    {
+     "bazaar": "quyliq",
+     "day": 20772,
+     "price": 5200
+    }
+   ],
+   "bazaar": "mirobod",
+   "day": 20775,
+   "out": 5200
+  },
+  {
+   "rows": [
+    {
+     "bazaar": "chorsu",
+     "day": 20774,
+     "price": 4900
+    },
+    {
+     "bazaar": "oloy",
+     "day": 20773,
+     "price": 5600
+    },
+    {
+     "bazaar": "oloy",
+     "day": 20766,
+     "price": 9000
+    },
+    {
+     "bazaar": "quyliq",
+     "day": 20772,
+     "price": 5200
+    }
+   ],
+   "bazaar": "chorsu",
+   "day": 20784,
+   "out": null
+  },
+  {
+   "rows": [
+    {
+     "bazaar": "chorsu",
+     "day": 20774,
+     "price": 4900
+    },
+    {
+     "bazaar": "oloy",
+     "day": 20773,
+     "price": 5600
+    },
+    {
+     "bazaar": "oloy",
+     "day": 20766,
+     "price": 9000
+    },
+    {
+     "bazaar": "quyliq",
+     "day": 20772,
+     "price": 5200
+    }
+   ],
+   "bazaar": "oloy",
+   "day": 20774,
+   "out": 5600
+  }
+ ],
+ "aggregate": [
+  {
+   "reports": [
+    {
+     "id": 1,
+     "user": 40,
+     "price": 4900,
+     "weight": 300,
+     "at": 10
+    }
+   ],
+   "ref": 4900,
+   "unit": 100,
+   "out": [
+    {
+     "price": 4900,
+     "n": 1,
+     "users": 1,
+     "last_at": 10
+    },
+    {
+     "1": "ok"
+    }
+   ]
+  },
+  {
+   "reports": [
+    {
+     "id": 1,
+     "user": 40,
+     "price": 4900,
+     "weight": 300,
+     "at": 10
+    },
+    {
+     "id": 2,
+     "user": 1,
+     "price": 4500,
+     "weight": 1500,
+     "at": 20
+    }
+   ],
+   "ref": 4900,
+   "unit": 100,
+   "out": [
+    {
+     "price": 4500,
+     "n": 2,
+     "users": 2,
+     "last_at": 20
+    },
+    {
+     "1": "near",
+     "2": "ok"
+    }
+   ]
+  },
+  {
+   "reports": [
+    {
+     "id": 1,
+     "user": 40,
+     "price": 4900,
+     "weight": 300,
+     "at": 10
+    },
+    {
+     "id": 2,
+     "user": 1,
+     "price": 4500,
+     "weight": 1500,
+     "at": 20
+    },
+    {
+     "id": 3,
+     "user": 77,
+     "price": 500,
+     "weight": 300,
+     "at": 30
+    }
+   ],
+   "ref": 4900,
+   "unit": 100,
+   "out": [
+    {
+     "price": 4500,
+     "n": 2,
+     "users": 2,
+     "last_at": 20
+    },
+    {
+     "1": "near",
+     "2": "ok",
+     "3": "far"
+    }
+   ]
+  },
+  {
+   "reports": [
+    {
+     "id": 1,
+     "user": 40,
+     "price": 4900,
+     "weight": 300,
+     "at": 10
+    },
+    {
+     "id": 2,
+     "user": 1,
+     "price": 4500,
+     "weight": 1500,
+     "at": 20
+    },
+    {
+     "id": 3,
+     "user": 77,
+     "price": 500,
+     "weight": 300,
+     "at": 30
+    },
+    {
+     "id": 4,
+     "user": 2,
+     "price": 4500,
+     "weight": 1500,
+     "at": 40
+    },
+    {
+     "id": 5,
+     "user": 3,
+     "price": 4500,
+     "weight": 1500,
+     "at": 50
+    }
+   ],
+   "ref": 4900,
+   "unit": 100,
+   "out": [
+    {
+     "price": 4500,
+     "n": 4,
+     "users": 4,
+     "last_at": 50
+    },
+    {
+     "1": "near",
+     "2": "ok",
+     "3": "far",
+     "4": "ok",
+     "5": "ok"
+    }
+   ]
+  },
+  {
+   "reports": [
+    {
+     "id": 1,
+     "user": 1,
+     "price": 12100,
+     "weight": 600,
+     "at": 1
+    },
+    {
+     "id": 2,
+     "user": 2,
+     "price": 12200,
+     "weight": 600,
+     "at": 2
+    },
+    {
+     "id": 3,
+     "user": 3,
+     "price": 12300,
+     "weight": 600,
+     "at": 3
+    },
+    {
+     "id": 4,
+     "user": 4,
+     "price": 12400,
+     "weight": 600,
+     "at": 4
+    }
+   ],
+   "ref": 5000,
+   "unit": 100,
+   "out": [
+    {
+     "price": 12300,
+     "n": 4,
+     "users": 4,
+     "last_at": 4
+    },
+    {
+     "1": "ok",
+     "2": "ok",
+     "3": "ok",
+     "4": "ok"
+    }
+   ]
+  },
+  {
+   "reports": [
+    {
+     "id": 1,
+     "user": 1,
+     "price": 12100,
+     "weight": 600,
+     "at": 1
+    },
+    {
+     "id": 2,
+     "user": 2,
+     "price": 12200,
+     "weight": 600,
+     "at": 2
+    }
+   ],
+   "ref": 5000,
+   "unit": 100,
+   "out": [
+    null,
+    {
+     "1": "far",
+     "2": "far"
+    }
+   ]
+  },
+  {
+   "reports": [
+    {
+     "id": 1,
+     "user": 1,
+     "price": 9000,
+     "weight": 0,
+     "at": 1
+    }
+   ],
+   "ref": null,
+   "unit": 100,
+   "out": [
+    null,
+    {
+     "1": "off"
+    }
+   ]
+  },
+  {
+   "reports": [
+    {
+     "id": 1,
+     "user": 40,
+     "price": 4900,
+     "weight": 300,
+     "at": 10
+    },
+    {
+     "id": 2,
+     "user": 1,
+     "price": 4500,
+     "weight": 1500,
+     "at": 20
+    }
+   ],
+   "ref": null,
+   "unit": 1000,
+   "out": [
+    {
+     "price": 5000,
+     "n": 2,
+     "users": 2,
+     "last_at": 20
+    },
+    {
+     "1": "ok",
+     "2": "near"
+    }
+   ]
+  },
+  {
+   "reports": [
+    {
+     "id": 1,
+     "user": 2,
+     "price": 15135,
+     "weight": 1500,
+     "at": 1000
+    },
+    {
+     "id": 2,
+     "user": 3,
+     "price": 15915,
+     "weight": 50,
+     "at": 1001
+    }
+   ],
+   "ref": null,
+   "unit": 100,
+   "out": [
+    {
+     "price": 15100,
+     "n": 2,
+     "users": 2,
+     "last_at": 1001
+    },
+    {
+     "1": "ok",
+     "2": "ok"
+    }
+   ]
+  },
+  {
+   "reports": [
+    {
+     "id": 1,
+     "user": 2,
+     "price": 14210,
+     "weight": 900,
+     "at": 1000
+    },
+    {
+     "id": 2,
+     "user": 1,
+     "price": 13482,
+     "weight": 50,
+     "at": 1001
+    },
+    {
+     "id": 3,
+     "user": 4,
+     "price": 43820,
+     "weight": 900,
+     "at": 1002
+    }
+   ],
+   "ref": 14000,
+   "unit": 500,
+   "out": [
+    {
+     "price": 14000,
+     "n": 2,
+     "users": 2,
+     "last_at": 1001
+    },
+    {
+     "1": "ok",
+     "2": "ok",
+     "3": "far"
+    }
+   ]
+  },
+  {
+   "reports": [
+    {
+     "id": 1,
+     "user": 4,
+     "price": 14001,
+     "weight": 300,
+     "at": 1000
+    },
+    {
+     "id": 2,
+     "user": 5,
+     "price": 12064,
+     "weight": 0,
+     "at": 1001
+    },
+    {
+     "id": 3,
+     "user": 2,
+     "price": 12649,
+     "weight": 300,
+     "at": 1002
+    },
+    {
+     "id": 4,
+     "user": 3,
+     "price": 13325,
+     "weight": 0,
+     "at": 1003
+    }
+   ],
+   "ref": 13000,
+   "unit": 1000,
+   "out": [
+    {
+     "price": 13000,
+     "n": 2,
+     "users": 2,
+     "last_at": 1002
+    },
+    {
+     "2": "off",
+     "4": "off",
+     "1": "ok",
+     "3": "ok"
+    }
+   ]
+  },
+  {
+   "reports": [
+    {
+     "id": 1,
+     "user": 5,
+     "price": 12576,
+     "weight": 0,
+     "at": 1000
+    },
+    {
+     "id": 2,
+     "user": 4,
+     "price": 11952,
+     "weight": 300,
+     "at": 1001
+    },
+    {
+     "id": 3,
+     "user": 3,
+     "price": 11328,
+     "weight": 0,
+     "at": 1002
+    },
+    {
+     "id": 4,
+     "user": 2,
+     "price": 13116,
+     "weight": 300,
+     "at": 1003
+    },
+    {
+     "id": 5,
+     "user": 4,
+     "price": 12660,
+     "weight": 1500,
+     "at": 1004
+    }
+   ],
+   "ref": null,
+   "unit": 100,
+   "out": [
+    {
+     "price": 12700,
+     "n": 3,
+     "users": 2,
+     "last_at": 1004
+    },
+    {
+     "1": "off",
+     "3": "off",
+     "2": "ok",
+     "4": "ok",
+     "5": "ok"
+    }
+   ]
+  },
+  {
+   "reports": [
+    {
+     "id": 1,
+     "user": 1,
+     "price": 11902,
+     "weight": 1500,
+     "at": 1000
+    },
+    {
+     "id": 2,
+     "user": 2,
+     "price": 10263,
+     "weight": 300,
+     "at": 1001
+    },
+    {
+     "id": 3,
+     "user": 3,
+     "price": 10835,
+     "weight": 1500,
+     "at": 1002
+    },
+    {
+     "id": 4,
+     "user": 4,
+     "price": 11407,
+     "weight": 300,
+     "at": 1003
+    },
+    {
+     "id": 5,
+     "user": 5,
+     "price": 11979,
+     "weight": 1500,
+     "at": 1004
+    },
+    {
+     "id": 6,
+     "user": 1,
+     "price": 10340,
+     "weight": 50,
+     "at": 1005
+    }
+   ],
+   "ref": 11000,
+   "unit": 500,
+   "out": [
+    {
+     "price": 12000,
+     "n": 4,
+     "users": 4,
+     "last_at": 1004
+    },
+    {
+     "1": "ok",
+     "2": "far",
+     "3": "near",
+     "4": "ok",
+     "5": "ok",
+     "6": "far"
+    }
+   ]
+  },
+  {
+   "reports": [
+    {
+     "id": 1,
+     "user": 1,
+     "price": 10200,
+     "weight": 300,
+     "at": 1000
+    },
+    {
+     "id": 2,
+     "user": 5,
+     "price": 9680,
+     "weight": 0,
+     "at": 1001
+    },
+    {
+     "id": 3,
+     "user": 3,
+     "price": 9230,
+     "weight": 300,
+     "at": 1002
+    },
+    {
+     "id": 4,
+     "user": 2,
+     "price": 10720,
+     "weight": 1500,
+     "at": 1003
+    },
+    {
+     "id": 5,
+     "user": 2,
+     "price": 10130,
+     "weight": 300,
+     "at": 1004
+    },
+    {
+     "id": 6,
+     "user": 1,
+     "price": 9610,
+     "weight": 0,
+     "at": 1005
+    },
+    {
+     "id": 7,
+     "user": 4,
+     "price": 9160,
+     "weight": 300,
+     "at": 1006
+    }
+   ],
+   "ref": 10000,
+   "unit": 1000,
+   "out": [
+    {
+     "price": 11000,
+     "n": 3,
+     "users": 2,
+     "last_at": 1004
+    },
+    {
+     "2": "off",
+     "6": "off",
+     "1": "ok",
+     "3": "far",
+     "4": "ok",
+     "5": "ok",
+     "7": "far"
+    }
+   ]
+  },
+  {
+   "reports": [
+    {
+     "id": 1,
+     "user": 2,
+     "price": 9486,
+     "weight": 300,
+     "at": 1000
+    },
+    {
+     "id": 2,
+     "user": 3,
+     "price": 8145,
+     "weight": 1500,
+     "at": 1001
+    },
+    {
+     "id": 3,
+     "user": 5,
+     "price": 8550,
+     "weight": 300,
+     "at": 1002
+    },
+    {
+     "id": 4,
+     "user": 1,
+     "price": 22950,
+     "weight": 1500,
+     "at": 1003
+    },
+    {
+     "id": 5,
+     "user": 1,
+     "price": 9549,
+     "weight": 50,
+     "at": 1004
+    },
+    {
+     "id": 6,
+     "user": 2,
+     "price": 8208,
+     "weight": 1500,
+     "at": 1005
+    },
+    {
+     "id": 7,
+     "user": 4,
+     "price": 8613,
+     "weight": 300,
+     "at": 1006
+    },
+    {
+     "id": 8,
+     "user": 5,
+     "price": 9081,
+     "weight": 1500,
+     "at": 1007
+    }
+   ],
+   "ref": null,
+   "unit": 100,
+   "out": [
+    {
+     "price": 8200,
+     "n": 7,
+     "users": 5,
+     "last_at": 1007
+    },
+    {
+     "1": "near",
+     "2": "ok",
+     "3": "ok",
+     "4": "far",
+     "5": "near",
+     "6": "ok",
+     "7": "ok",
+     "8": "near"
+    }
+   ]
+  },
+  {
+   "reports": [
+    {
+     "id": 1,
+     "user": 4,
+     "price": 8800,
+     "weight": 300,
+     "at": 1000
+    },
+    {
+     "id": 2,
+     "user": 3,
+     "price": 8384,
+     "weight": 1500,
+     "at": 1001
+    }
+   ],
+   "ref": 8000,
+   "unit": 500,
+   "out": [
+    {
+     "price": 8500,
+     "n": 2,
+     "users": 2,
+     "last_at": 1001
+    },
+    {
+     "1": "ok",
+     "2": "ok"
+    }
+   ]
+  },
+  {
+   "reports": [
+    {
+     "id": 1,
+     "user": 4,
+     "price": 22218,
+     "weight": 1500,
+     "at": 1000
+    },
+    {
+     "id": 2,
+     "user": 5,
+     "price": 23414,
+     "weight": 50,
+     "at": 1001
+    },
+    {
+     "id": 3,
+     "user": 1,
+     "price": 24610,
+     "weight": 900,
+     "at": 1002
+    }
+   ],
+   "ref": 23000,
+   "unit": 1000,
+   "out": [
+    {
+     "price": 22000,
+     "n": 3,
+     "users": 3,
+     "last_at": 1002
+    },
+    {
+     "1": "ok",
+     "2": "ok",
+     "3": "near"
+    }
+   ]
+  },
+  {
+   "reports": [
+    {
+     "id": 1,
+     "user": 5,
+     "price": 23584,
+     "weight": 1500,
+     "at": 1000
+    },
+    {
+     "id": 2,
+     "user": 4,
+     "price": 22440,
+     "weight": 300,
+     "at": 1001
+    },
+    {
+     "id": 3,
+     "user": 2,
+     "price": 53020,
+     "weight": 1500,
+     "at": 1002
+    },
+    {
+     "id": 4,
+     "user": 1,
+     "price": 20306,
+     "weight": 50,
+     "at": 1003
+    }
+   ],
+   "ref": null,
+   "unit": 100,
+   "out": [
+    {
+     "price": 23600,
+     "n": 3,
+     "users": 3,
+     "last_at": 1003
+    },
+    {
+     "1": "ok",
+     "2": "ok",
+     "3": "far",
+     "4": "near"
+    }
+   ]
+  },
+  {
+   "reports": [
+    {
+     "id": 1,
+     "user": 2,
+     "price": 98072,
+     "weight": 0,
+     "at": 1000
+    },
+    {
+     "id": 2,
+     "user": 1,
+     "price": 193200,
+     "weight": 300,
+     "at": 1001
+    },
+    {
+     "id": 3,
+     "user": 4,
+     "price": 89148,
+     "weight": 0,
+     "at": 1002
+    },
+    {
+     "id": 4,
+     "user": 3,
+     "price": 84364,
+     "weight": 300,
+     "at": 1003
+    },
+    {
+     "id": 5,
+     "user": 1,
+     "price": 98716,
+     "weight": 0,
+     "at": 1004
+    }
+   ],
+   "ref": 92000,
+   "unit": 500,
+   "out": [
+    {
+     "price": 84500,
+     "n": 1,
+     "users": 1,
+     "last_at": 1003
+    },
+    {
+     "1": "off",
+     "3": "off",
+     "5": "off",
+     "2": "far",
+     "4": "ok"
+    }
+   ]
+  },
+  {
+   "reports": [
+    {
+     "id": 1,
+     "user": 1,
+     "price": 6900,
+     "weight": 1500,
+     "at": 1000
+    },
+    {
+     "id": 2,
+     "user": 2,
+     "price": 3036,
+     "weight": 300,
+     "at": 1001
+    },
+    {
+     "id": 3,
+     "user": 3,
+     "price": 3192,
+     "weight": 1500,
+     "at": 1002
+    },
+    {
+     "id": 4,
+     "user": 4,
+     "price": 2745,
+     "weight": 300,
+     "at": 1003
+    },
+    {
+     "id": 5,
+     "user": 2,
+     "price": 2859,
+     "weight": 0,
+     "at": 1004
+    },
+    {
+     "id": 6,
+     "user": 3,
+     "price": 3015,
+     "weight": 300,
+     "at": 1005
+    }
+   ],
+   "ref": 3000,
+   "unit": 1000,
+   "out": [
+    {
+     "price": 3000,
+     "n": 3,
+     "users": 2,
+     "last_at": 1005
+    },
+    {
+     "5": "off",
+     "1": "far",
+     "2": "ok",
+     "3": "ok",
+     "4": "far",
+     "6": "ok"
+    }
+   ]
+  },
+  {
+   "reports": [
+    {
+     "id": 1,
+     "user": 4,
+     "price": 3996,
+     "weight": 0,
+     "at": 1000
+    },
+    {
+     "id": 2,
+     "user": 3,
+     "price": 3788,
+     "weight": 900,
+     "at": 1001
+    },
+    {
+     "id": 3,
+     "user": 2,
+     "price": 4384,
+     "weight": 0,
+     "at": 1002
+    },
+    {
+     "id": 4,
+     "user": 1,
+     "price": 4176,
+     "weight": 900,
+     "at": 1003
+    },
+    {
+     "id": 5,
+     "user": 3,
+     "price": 4024,
+     "weight": 0,
+     "at": 1004
+    },
+    {
+     "id": 6,
+     "user": 2,
+     "price": 15040,
+     "weight": 900,
+     "at": 1005
+    },
+    {
+     "id": 7,
+     "user": 1,
+     "price": 3608,
+     "weight": 0,
+     "at": 1006
+    }
+   ],
+   "ref": null,
+   "unit": 100,
+   "out": [
+    {
+     "price": 4000,
+     "n": 2,
+     "users": 2,
+     "last_at": 1003
+    },
+    {
+     "1": "off",
+     "3": "off",
+     "5": "off",
+     "7": "off",
+     "2": "ok",
+     "4": "ok",
+     "6": "far"
+    }
+   ]
+  },
+  {
+   "reports": [
+    {
+     "id": 1,
+     "user": 1,
+     "price": 5165,
+     "weight": 50,
+     "at": 1000
+    },
+    {
+     "id": 2,
+     "user": 2,
+     "price": 5425,
+     "weight": 900,
+     "at": 1001
+    },
+    {
+     "id": 3,
+     "user": 4,
+     "price": 4645,
+     "weight": 50,
+     "at": 1002
+    },
+    {
+     "id": 4,
+     "user": 5,
+     "price": 4905,
+     "weight": 900,
+     "at": 1003
+    },
+    {
+     "id": 5,
+     "user": 2,
+     "price": 3800,
+     "weight": 50,
+     "at": 1004
+    },
+    {
+     "id": 6,
+     "user": 3,
+     "price": 5390,
+     "weight": 900,
+     "at": 1005
+    },
+    {
+     "id": 7,
+     "user": 5,
+     "price": 4610,
+     "weight": 50,
+     "at": 1006
+    },
+    {
+     "id": 8,
+     "user": 1,
+     "price": 4870,
+     "weight": 1500,
+     "at": 1007
+    }
+   ],
+   "ref": 5000,
+   "unit": 500,
+   "out": [
+    {
+     "price": 5000,
+     "n": 7,
+     "users": 5,
+     "last_at": 1007
+    },
+    {
+     "1": "ok",
+     "2": "near",
+     "3": "ok",
+     "4": "ok",
+     "5": "far",
+     "6": "ok",
+     "7": "ok",
+     "8": "ok"
+    }
+   ]
+  },
+  {
+   "reports": [
+    {
+     "id": 1,
+     "user": 5,
+     "price": 85448,
+     "weight": 900,
+     "at": 1000
+    },
+    {
+     "id": 2,
+     "user": 4,
+     "price": 80872,
+     "weight": 0,
+     "at": 1001
+    }
+   ],
+   "ref": 88000,
+   "unit": 1000,
+   "out": [
+    {
+     "price": 85000,
+     "n": 1,
+     "users": 1,
+     "last_at": 1000
+    },
+    {
+     "2": "off",
+     "1": "ok"
+    }
+   ]
+  },
+  {
+   "reports": [
+    {
+     "id": 1,
+     "user": 2,
+     "price": 89890,
+     "weight": 1500,
+     "at": 1000
+    },
+    {
+     "id": 2,
+     "user": 3,
+     "price": 113030,
+     "weight": 300,
+     "at": 1001
+    },
+    {
+     "id": 3,
+     "user": 4,
+     "price": 81257,
+     "weight": 1500,
+     "at": 1002
+    }
+   ],
+   "ref": null,
+   "unit": 100,
+   "out": [
+    {
+     "price": 89900,
+     "n": 3,
+     "users": 3,
+     "last_at": 1002
+    },
+    {
+     "1": "ok",
+     "2": "near",
+     "3": "near"
+    }
+   ]
+  },
+  {
+   "reports": [
+    {
+     "id": 1,
+     "user": 5,
+     "price": 88020,
+     "weight": 300,
+     "at": 1000
+    },
+    {
+     "id": 2,
+     "user": 4,
+     "price": 83340,
+     "weight": 1500,
+     "at": 1001
+    },
+    {
+     "id": 3,
+     "user": 3,
+     "price": 96750,
+     "weight": 300,
+     "at": 1002
+    },
+    {
+     "id": 4,
+     "user": 2,
+     "price": 92070,
+     "weight": 0,
+     "at": 1003
+    }
+   ],
+   "ref": 90000,
+   "unit": 500,
+   "out": [
+    {
+     "price": 83500,
+     "n": 2,
+     "users": 2,
+     "last_at": 1001
+    },
+    {
+     "4": "off",
+     "1": "ok",
+     "2": "ok",
+     "3": "far"
+    }
+   ]
+  },
+  {
+   "reports": [
+    {
+     "id": 1,
+     "user": 1,
+     "price": 345800,
+     "weight": 300,
+     "at": 1000
+    },
+    {
+     "id": 2,
+     "user": 2,
+     "price": 96187,
+     "weight": 0,
+     "at": 1001
+    },
+    {
+     "id": 3,
+     "user": 4,
+     "price": 81991,
+     "weight": 300,
+     "at": 1002
+    },
+    {
+     "id": 4,
+     "user": 5,
+     "price": 86723,
+     "weight": 0,
+     "at": 1003
+    },
+    {
+     "id": 5,
+     "user": 5,
+     "price": 92092,
+     "weight": 300,
+     "at": 1004
+    }
+   ],
+   "ref": 91000,
+   "unit": 1000,
+   "out": [
+    {
+     "price": 87000,
+     "n": 2,
+     "users": 2,
+     "last_at": 1004
+    },
+    {
+     "2": "off",
+     "4": "off",
+     "1": "far",
+     "3": "ok",
+     "5": "ok"
+    }
+   ]
+  },
+  {
+   "reports": [
+    {
+     "id": 1,
+     "user": 4,
+     "price": 10230,
+     "weight": 0,
+     "at": 1000
+    },
+    {
+     "id": 2,
+     "user": 3,
+     "price": 9710,
+     "weight": 300,
+     "at": 1001
+    },
+    {
+     "id": 3,
+     "user": 1,
+     "price": 9260,
+     "weight": 1500,
+     "at": 1002
+    },
+    {
+     "id": 4,
+     "user": 5,
+     "price": 10750,
+     "weight": 300,
+     "at": 1003
+    },
+    {
+     "id": 5,
+     "user": 3,
+     "price": 10300,
+     "weight": 1500,
+     "at": 1004
+    },
+    {
+     "id": 6,
+     "user": 2,
+     "price": 36600,
+     "weight": 300,
+     "at": 1005
+    }
+   ],
+   "ref": null,
+   "unit": 100,
+   "out": [
+    {
+     "price": 10000,
+     "n": 4,
+     "users": 3,
+     "last_at": 1004
+    },
+    {
+     "1": "off",
+     "2": "ok",
+     "3": "ok",
+     "4": "ok",
+     "5": "ok",
+     "6": "far"
+    }
+   ]
+  },
+  {
+   "reports": [
+    {
+     "id": 1,
+     "user": 3,
+     "price": 10087,
+     "weight": 1500,
+     "at": 1000
+    },
+    {
+     "id": 2,
+     "user": 4,
+     "price": 10659,
+     "weight": 300,
+     "at": 1001
+    },
+    {
+     "id": 3,
+     "user": 5,
+     "price": 11231,
+     "weight": 1500,
+     "at": 1002
+    },
+    {
+     "id": 4,
+     "user": 1,
+     "price": 11803,
+     "weight": 50,
+     "at": 1003
+    },
+    {
+     "id": 5,
+     "user": 4,
+     "price": 10010,
+     "weight": 1500,
+     "at": 1004
+    },
+    {
+     "id": 6,
+     "user": 5,
+     "price": 10582,
+     "weight": 300,
+     "at": 1005
+    },
+    {
+     "id": 7,
+     "user": 1,
+     "price": 11154,
+     "weight": 1500,
+     "at": 1006
+    }
+   ],
+   "ref": 11000,
+   "unit": 500,
+   "out": [
+    {
+     "price": 10500,
+     "n": 7,
+     "users": 4,
+     "last_at": 1006
+    },
+    {
+     "1": "ok",
+     "2": "ok",
+     "3": "ok",
+     "4": "near",
+     "5": "ok",
+     "6": "ok",
+     "7": "ok"
+    }
+   ]
+  },
+  {
+   "reports": [
+    {
+     "id": 1,
+     "user": 2,
+     "price": 31124,
+     "weight": 1500,
+     "at": 1000
+    },
+    {
+     "id": 2,
+     "user": 3,
+     "price": 32736,
+     "weight": 50,
+     "at": 1001
+    },
+    {
+     "id": 3,
+     "user": 4,
+     "price": 28117,
+     "weight": 1500,
+     "at": 1002
+    },
+    {
+     "id": 4,
+     "user": 5,
+     "price": 29729,
+     "weight": 50,
+     "at": 1003
+    },
+    {
+     "id": 5,
+     "user": 3,
+     "price": 30907,
+     "weight": 1500,
+     "at": 1004
+    },
+    {
+     "id": 6,
+     "user": 4,
+     "price": 32519,
+     "weight": 300,
+     "at": 1005
+    },
+    {
+     "id": 7,
+     "user": 5,
+     "price": 75640,
+     "weight": 1500,
+     "at": 1006
+    },
+    {
+     "id": 8,
+     "user": 1,
+     "price": 29512,
+     "weight": 300,
+     "at": 1007
+    }
+   ],
+   "ref": 31000,
+   "unit": 1000,
+   "out": [
+    {
+     "price": 31000,
+     "n": 7,
+     "users": 5,
+     "last_at": 1007
+    },
+    {
+     "1": "ok",
+     "2": "ok",
+     "3": "near",
+     "4": "ok",
+     "5": "ok",
+     "6": "ok",
+     "7": "far",
+     "8": "ok"
+    }
+   ]
+  },
+  {
+   "reports": [
+    {
+     "id": 1,
+     "user": 3,
+     "price": 27270,
+     "weight": 0,
+     "at": 1000
+    },
+    {
+     "id": 2,
+     "user": 2,
+     "price": 31740,
+     "weight": 300,
+     "at": 1001
+    }
+   ],
+   "ref": null,
+   "unit": 100,
+   "out": [
+    {
+     "price": 31700,
+     "n": 1,
+     "users": 1,
+     "last_at": 1001
+    },
+    {
+     "1": "off",
+     "2": "ok"
+    }
+   ]
+  },
+  {
+   "reports": [
+    {
+     "id": 1,
+     "user": 1,
+     "price": 32967,
+     "weight": 300,
+     "at": 1000
+    },
+    {
+     "id": 2,
+     "user": 2,
+     "price": 34683,
+     "weight": 1500,
+     "at": 1001
+    },
+    {
+     "id": 3,
+     "user": 4,
+     "price": 36168,
+     "weight": 300,
+     "at": 1002
+    }
+   ],
+   "ref": 33000,
+   "unit": 500,
+   "out": [
+    {
+     "price": 34500,
+     "n": 3,
+     "users": 3,
+     "last_at": 1002
+    },
+    {
+     "1": "ok",
+     "2": "ok",
+     "3": "ok"
+    }
+   ]
+  },
+  {
+   "reports": [
+    {
+     "id": 1,
+     "user": 3,
+     "price": 31584,
+     "weight": 300,
+     "at": 1000
+    },
+    {
+     "id": 2,
+     "user": 2,
+     "price": 29920,
+     "weight": 0,
+     "at": 1001
+    },
+    {
+     "id": 3,
+     "user": 1,
+     "price": 34688,
+     "weight": 300,
+     "at": 1002
+    },
+    {
+     "id": 4,
+     "user": 5,
+     "price": 87680,
+     "weight": 0,
+     "at": 1003
+    }
+   ],
+   "ref": 32000,
+   "unit": 1000,
+   "out": [
+    {
+     "price": 33000,
+     "n": 2,
+     "users": 2,
+     "last_at": 1002
+    },
+    {
+     "2": "off",
+     "4": "off",
+     "1": "ok",
+     "3": "ok"
+    }
+   ]
+  }
+ ],
+ "level": [
+  [
+   0,
+   "low"
+  ],
+  [
+   1,
+   "low"
+  ],
+  [
+   2,
+   "mid"
+  ],
+  [
+   3,
+   "mid"
+  ],
+  [
+   4,
+   "high"
+  ],
+  [
+   9,
+   "high"
+  ]
+ ],
+ "parse": [
+  {
+   "in": "4500",
+   "out": {
+    "ok": 4500
+   }
+  },
+  {
+   "in": "4 500",
+   "out": {
+    "ok": 4500
+   }
+  },
+  {
+   "in": "4.500",
+   "out": {
+    "ok": 4500
+   }
+  },
+  {
+   "in": "4,500",
+   "out": {
+    "ok": 4500
+   }
+  },
+  {
+   "in": "4 500 so'm",
+   "out": {
+    "ok": 4500
+   }
+  },
+  {
+   "in": "4500 сум",
+   "out": {
+    "ok": 4500
+   }
+  },
+  {
+   "in": " 12 000 sum ",
+   "out": {
+    "ok": 12000
+   }
+  },
+  {
+   "in": "4,5",
+   "out": {
+    "error": "price_format"
+   }
+  },
+  {
+   "in": "4 50",
+   "out": {
+    "error": "price_format"
+   }
+  },
+  {
+   "in": "abc",
+   "out": {
+    "error": "price_format"
+   }
+  },
+  {
+   "in": "",
+   "out": {
+    "error": "price_format"
+   }
+  },
+  {
+   "in": "1234567890",
+   "out": {
+    "error": "price_format"
+   }
+  },
+  {
+   "in": "112 000",
+   "out": {
+    "ok": 112000
+   }
+  }
+ ],
+ "check": [
+  {
+   "in": 4500,
+   "out": {
+    "ok": 4500
+   }
+  },
+  {
+   "in": "4 500",
+   "out": {
+    "ok": 4500
+   }
+  },
+  {
+   "in": 500,
+   "out": {
+    "error": "price_range"
+   }
+  },
+  {
+   "in": 999,
+   "out": {
+    "error": "price_range"
+   }
+  },
+  {
+   "in": 30000,
+   "out": {
+    "ok": 30000
+   }
+  },
+  {
+   "in": 30001,
+   "out": {
+    "error": "price_range"
+   }
+  },
+  {
+   "in": true,
+   "out": {
+    "error": "price_format"
+   }
+  },
+  {
+   "in": 4.5,
+   "out": {
+    "error": "price_format"
+   }
+  },
+  {
+   "in": "x",
+   "out": {
+    "error": "price_format"
+   }
+  }
+ ],
+ "spark": [
+  {
+   "in": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "out": "▁▂▃▄▅▆▇█"
+  },
+  {
+   "in": [
+    5,
+    5,
+    5
+   ],
+   "out": "▄▄▄"
+  },
+  {
+   "in": [
+    null,
+    3,
+    null,
+    9
+   ],
+   "out": "·▁·█"
+  },
+  {
+   "in": [],
+   "out": ""
+  },
+  {
+   "in": [
+    null
+   ],
+   "out": ""
+  }
+ ],
+ "saving": [
+  [
+   4500,
+   5200,
+   {
+    "pct": 13,
+    "som": 700
+   }
+  ],
+  [
+   5200,
+   5200,
+   {
+    "pct": 0,
+    "som": 0
+   }
+  ],
+  [
+   6100,
+   5200,
+   {
+    "pct": -17,
+    "som": -900
+   }
+  ],
+  [
+   105000,
+   114500,
+   {
+    "pct": 8,
+    "som": 9500
+   }
+  ]
+ ],
+ "digest_in": [
+  {
+   "in": {
+    "a": -12,
+    "b": 3,
+    "c": null,
+    "d": -3,
+    "e": 9,
+    "f": -3,
+    "g": 0,
+    "h": 1
+   },
+   "out": {
+    "down": [
+     [
+      "a",
+      -12
+     ],
+     [
+      "d",
+      -3
+     ],
+     [
+      "f",
+      -3
+     ]
+    ],
+    "up": [
+     [
+      "e",
+      9
+     ],
+     [
+      "b",
+      3
+     ],
+     [
+      "h",
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "in": {
+    "x": 0
+   },
+   "out": {
+    "down": [],
+    "up": []
+   }
+  },
+  {
+   "in": {},
+   "out": {
+    "down": [],
+    "up": []
+   }
+  }
+ ],
+ "world": [
+  {
+   "today": 20775,
+   "minute": 640,
+   "sizes": {
+    "users": 34,
+    "reports": 16233,
+    "daily": 8723
+   },
+   "digest": {
+    "users": 1864068535,
+    "reports": 4212043929,
+    "daily": 5363682
+   },
+   "reports": [
+    {
+     "id": 16231,
+     "user": -11,
+     "bazaar": "parkent",
+     "product": "shakar",
+     "day": 20775,
+     "at": 1794967020000,
+     "price": 13500,
+     "confirm": 0,
+     "hidden": 0,
+     "verdict": "ok"
+    },
+    {
+     "id": 16232,
+     "user": -18,
+     "bazaar": "parkent",
+     "product": "shakar",
+     "day": 20775,
+     "at": 1794977760000,
+     "price": 13800,
+     "confirm": 0,
+     "hidden": 0,
+     "verdict": "ok"
+    },
+    {
+     "id": 16233,
+     "user": -5,
+     "bazaar": "parkent",
+     "product": "tuxum",
+     "day": 20775,
+     "at": 1794975420000,
+     "price": 16500,
+     "confirm": 0,
+     "hidden": 0,
+     "verdict": "ok"
+    }
+   ],
+   "daily": [
+    {
+     "bazaar": "parkent",
+     "product": "shakar",
+     "day": 20775,
+     "price": 13500,
+     "n": 3,
+     "users": 3,
+     "last_at": 1794977760000
+    },
+    {
+     "bazaar": "parkent",
+     "product": "tuxum",
+     "day": 20775,
+     "price": 16500,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794975420000
+    }
+   ]
+  },
+  {
+   "today": 20775,
+   "minute": 300,
+   "sizes": {
+    "users": 34,
+    "reports": 16057,
+    "daily": 8632
+   },
+   "digest": {
+    "users": 1864068535,
+    "reports": 879203730,
+    "daily": 3890946225
+   },
+   "reports": [
+    {
+     "id": 16055,
+     "user": -4,
+     "bazaar": "parkent",
+     "product": "un",
+     "day": 20774,
+     "at": 1794880560000,
+     "price": 6700,
+     "confirm": 0,
+     "hidden": 0,
+     "verdict": "ok"
+    },
+    {
+     "id": 16056,
+     "user": -4,
+     "bazaar": "parkent",
+     "product": "yog",
+     "day": 20774,
+     "at": 1794891120000,
+     "price": 24500,
+     "confirm": 0,
+     "hidden": 0,
+     "verdict": "ok"
+    },
+    {
+     "id": 16057,
+     "user": -5,
+     "bazaar": "parkent",
+     "product": "shakar",
+     "day": 20774,
+     "at": 1794882660000,
+     "price": 13300,
+     "confirm": 0,
+     "hidden": 0,
+     "verdict": "ok"
+    }
+   ],
+   "daily": [
+    {
+     "bazaar": "parkent",
+     "product": "yog",
+     "day": 20774,
+     "price": 24500,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794891120000
+    },
+    {
+     "bazaar": "parkent",
+     "product": "shakar",
+     "day": 20774,
+     "price": 13300,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794882660000
+    }
+   ]
+  },
+  {
+   "today": 20819,
+   "minute": 1439,
+   "sizes": {
+    "users": 34,
+    "reports": 16233,
+    "daily": 8723
+   },
+   "digest": {
+    "users": 137777650,
+    "reports": 827178784,
+    "daily": 3205981292
+   },
+   "reports": [
+    {
+     "id": 16231,
+     "user": -11,
+     "bazaar": "parkent",
+     "product": "shakar",
+     "day": 20819,
+     "at": 1798768620000,
+     "price": 13500,
+     "confirm": 0,
+     "hidden": 0,
+     "verdict": "ok"
+    },
+    {
+     "id": 16232,
+     "user": -18,
+     "bazaar": "parkent",
+     "product": "shakar",
+     "day": 20819,
+     "at": 1798779360000,
+     "price": 13800,
+     "confirm": 0,
+     "hidden": 0,
+     "verdict": "ok"
+    },
+    {
+     "id": 16233,
+     "user": -5,
+     "bazaar": "parkent",
+     "product": "tuxum",
+     "day": 20819,
+     "at": 1798777020000,
+     "price": 16500,
+     "confirm": 0,
+     "hidden": 0,
+     "verdict": "ok"
+    }
+   ],
+   "daily": [
+    {
+     "bazaar": "parkent",
+     "product": "shakar",
+     "day": 20819,
+     "price": 13500,
+     "n": 3,
+     "users": 3,
+     "last_at": 1798779360000
+    },
+    {
+     "bazaar": "parkent",
+     "product": "tuxum",
+     "day": 20819,
+     "price": 16500,
+     "n": 1,
+     "users": 1,
+     "last_at": 1798777020000
+    }
+   ]
+  },
+  {
+   "today": 20735,
+   "minute": 480,
+   "sizes": {
+    "users": 34,
+    "reports": 16128,
+    "daily": 8687
+   },
+   "digest": {
+    "users": 3046794139,
+    "reports": 872048304,
+    "daily": 152371609
+   },
+   "reports": [
+    {
+     "id": 16126,
+     "user": -10,
+     "bazaar": "parkent",
+     "product": "yog",
+     "day": 20735,
+     "at": 1791514560000,
+     "price": 24000,
+     "confirm": 0,
+     "hidden": 0,
+     "verdict": "ok"
+    },
+    {
+     "id": 16127,
+     "user": -4,
+     "bazaar": "parkent",
+     "product": "shakar",
+     "day": 20735,
+     "at": 1791514680000,
+     "price": 13200,
+     "confirm": 0,
+     "hidden": 0,
+     "verdict": "ok"
+    },
+    {
+     "id": 16128,
+     "user": -11,
+     "bazaar": "parkent",
+     "product": "shakar",
+     "day": 20735,
+     "at": 1791511020000,
+     "price": 13500,
+     "confirm": 0,
+     "hidden": 0,
+     "verdict": "ok"
+    }
+   ],
+   "daily": [
+    {
+     "bazaar": "parkent",
+     "product": "yog",
+     "day": 20735,
+     "price": 24500,
+     "n": 2,
+     "users": 2,
+     "last_at": 1791514560000
+    },
+    {
+     "bazaar": "parkent",
+     "product": "shakar",
+     "day": 20735,
+     "price": 13400,
+     "n": 2,
+     "users": 2,
+     "last_at": 1791514680000
+    }
+   ]
+  }
+ ],
+ "center": [
+  [
+   "mol",
+   "chorsu",
+   0,
+   111754
+  ],
+  [
+   "mol",
+   "chorsu",
+   1,
+   111202
+  ],
+  [
+   "mol",
+   "chorsu",
+   13,
+   105576
+  ],
+  [
+   "mol",
+   "chorsu",
+   14,
+   105245
+  ],
+  [
+   "mol",
+   "chorsu",
+   60,
+   103259
+  ],
+  [
+   "mol",
+   "oloy",
+   0,
+   106648
+  ],
+  [
+   "mol",
+   "oloy",
+   1,
+   106122
+  ],
+  [
+   "mol",
+   "oloy",
+   13,
+   100752
+  ],
+  [
+   "mol",
+   "oloy",
+   14,
+   100437
+  ],
+  [
+   "mol",
+   "oloy",
+   60,
+   98542
+  ],
+  [
+   "mol",
+   "mirobod",
+   0,
+   113456
+  ],
+  [
+   "mol",
+   "mirobod",
+   1,
+   112896
+  ],
+  [
+   "mol",
+   "mirobod",
+   13,
+   107184
+  ],
+  [
+   "mol",
+   "mirobod",
+   14,
+   106848
+  ],
+  [
+   "mol",
+   "mirobod",
+   60,
+   104832
+  ],
+  [
+   "qoy",
+   "chorsu",
+   0,
+   122744
+  ],
+  [
+   "qoy",
+   "chorsu",
+   1,
+   122620
+  ],
+  [
+   "qoy",
+   "chorsu",
+   13,
+   121131
+  ],
+  [
+   "qoy",
+   "chorsu",
+   14,
+   121131
+  ],
+  [
+   "qoy",
+   "chorsu",
+   60,
+   125226
+  ],
+  [
+   "qoy",
+   "oloy",
+   0,
+   117137
+  ],
+  [
+   "qoy",
+   "oloy",
+   1,
+   117018
+  ],
+  [
+   "qoy",
+   "oloy",
+   13,
+   115597
+  ],
+  [
+   "qoy",
+   "oloy",
+   14,
+   115597
+  ],
+  [
+   "qoy",
+   "oloy",
+   60,
+   119505
+  ],
+  [
+   "qoy",
+   "mirobod",
+   0,
+   124614
+  ],
+  [
+   "qoy",
+   "mirobod",
+   1,
+   124488
+  ],
+  [
+   "qoy",
+   "mirobod",
+   13,
+   122976
+  ],
+  [
+   "qoy",
+   "mirobod",
+   14,
+   122976
+  ],
+  [
+   "qoy",
+   "mirobod",
+   60,
+   127134
+  ],
+  [
+   "tovuq",
+   "chorsu",
+   0,
+   36793
+  ],
+  [
+   "tovuq",
+   "chorsu",
+   1,
+   36831
+  ],
+  [
+   "tovuq",
+   "chorsu",
+   13,
+   37205
+  ],
+  [
+   "tovuq",
+   "chorsu",
+   14,
+   37242
+  ],
+  [
+   "tovuq",
+   "chorsu",
+   60,
+   38028
+  ],
+  [
+   "tovuq",
+   "oloy",
+   0,
+   35112
+  ],
+  [
+   "tovuq",
+   "oloy",
+   1,
+   35148
+  ],
+  [
+   "tovuq",
+   "oloy",
+   13,
+   35505
+  ],
+  [
+   "tovuq",
+   "oloy",
+   14,
+   35541
+  ],
+  [
+   "tovuq",
+   "oloy",
+   60,
+   36291
+  ],
+  [
+   "tovuq",
+   "mirobod",
+   0,
+   37354
+  ],
+  [
+   "tovuq",
+   "mirobod",
+   1,
+   37392
+  ],
+  [
+   "tovuq",
+   "mirobod",
+   13,
+   37772
+  ],
+  [
+   "tovuq",
+   "mirobod",
+   14,
+   37810
+  ],
+  [
+   "tovuq",
+   "mirobod",
+   60,
+   38608
+  ],
+  [
+   "kartoshka",
+   "chorsu",
+   0,
+   4923
+  ],
+  [
+   "kartoshka",
+   "chorsu",
+   1,
+   4927
+  ],
+  [
+   "kartoshka",
+   "chorsu",
+   13,
+   5020
+  ],
+  [
+   "kartoshka",
+   "chorsu",
+   14,
+   5024
+  ],
+  [
+   "kartoshka",
+   "chorsu",
+   60,
+   4986
+  ],
+  [
+   "kartoshka",
+   "oloy",
+   0,
+   5688
+  ],
+  [
+   "kartoshka",
+   "oloy",
+   1,
+   5694
+  ],
+  [
+   "kartoshka",
+   "oloy",
+   13,
+   5801
+  ],
+  [
+   "kartoshka",
+   "oloy",
+   14,
+   5806
+  ],
+  [
+   "kartoshka",
+   "oloy",
+   60,
+   5761
+  ],
+  [
+   "kartoshka",
+   "mirobod",
+   0,
+   5634
+  ],
+  [
+   "kartoshka",
+   "mirobod",
+   1,
+   5639
+  ],
+  [
+   "kartoshka",
+   "mirobod",
+   13,
+   5745
+  ],
+  [
+   "kartoshka",
+   "mirobod",
+   14,
+   5750
+  ],
+  [
+   "kartoshka",
+   "mirobod",
+   60,
+   5706
+  ],
+  [
+   "piyoz",
+   "chorsu",
+   0,
+   6210
+  ],
+  [
+   "piyoz",
+   "chorsu",
+   1,
+   6334
+  ],
+  [
+   "piyoz",
+   "chorsu",
+   13,
+   7880
+  ],
+  [
+   "piyoz",
+   "chorsu",
+   14,
+   8010
+  ],
+  [
+   "piyoz",
+   "chorsu",
+   60,
+   8010
+  ],
+  [
+   "piyoz",
+   "oloy",
+   0,
+   7176
+  ],
+  [
+   "piyoz",
+   "oloy",
+   1,
+   7319
+  ],
+  [
+   "piyoz",
+   "oloy",
+   13,
+   9106
+  ],
+  [
+   "piyoz",
+   "oloy",
+   14,
+   9257
+  ],
+  [
+   "piyoz",
+   "oloy",
+   60,
+   9257
+  ],
+  [
+   "piyoz",
+   "mirobod",
+   0,
+   7107
+  ],
+  [
+   "piyoz",
+   "mirobod",
+   1,
+   7249
+  ],
+  [
+   "piyoz",
+   "mirobod",
+   13,
+   9018
+  ],
+  [
+   "piyoz",
+   "mirobod",
+   14,
+   9168
+  ],
+  [
+   "piyoz",
+   "mirobod",
+   60,
+   9168
+  ]
+ ],
+ "cells_digest": 2448754222,
+ "where": {
+  "mol": {
+   "product": "mol",
+   "city": 114500,
+   "rows": [
+    {
+     "bazaar": "oloy",
+     "price": 105000,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794969240000,
+     "day": 20775,
+     "pct": 8,
+     "som": 9500,
+     "level": "mid"
+    },
+    {
+     "bazaar": "chorsu",
+     "price": 112000,
+     "n": 3,
+     "users": 3,
+     "last_at": 1794978300000,
+     "day": 20775,
+     "pct": 2,
+     "som": 2500,
+     "level": "mid"
+    },
+    {
+     "bazaar": "mirobod",
+     "price": 113000,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794969480000,
+     "day": 20775,
+     "pct": 1,
+     "som": 1500,
+     "level": "mid"
+    },
+    {
+     "bazaar": "quyliq",
+     "price": 114000,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794970800000,
+     "day": 20775,
+     "pct": 0,
+     "som": 500,
+     "level": "mid"
+    },
+    {
+     "bazaar": "farhod",
+     "price": 115000,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794977640000,
+     "day": 20775,
+     "pct": 0,
+     "som": -500,
+     "level": "mid"
+    },
+    {
+     "bazaar": "parkent",
+     "price": 115000,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794978840000,
+     "day": 20775,
+     "pct": 0,
+     "som": -500,
+     "level": "mid"
+    },
+    {
+     "bazaar": "kadisha",
+     "price": 118000,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794974160000,
+     "day": 20775,
+     "pct": -3,
+     "som": -3500,
+     "level": "mid"
+    },
+    {
+     "bazaar": "yunusobod",
+     "price": 120000,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794977160000,
+     "day": 20775,
+     "pct": -5,
+     "som": -5500,
+     "level": "mid"
+    }
+   ],
+   "best": "oloy",
+   "spread": 15000
+  },
+  "qoy": {
+   "product": "qoy",
+   "city": 124500,
+   "rows": [
+    {
+     "bazaar": "chorsu",
+     "price": 121000,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794891180000,
+     "day": 20774,
+     "pct": 3,
+     "som": 3500,
+     "level": "low"
+    },
+    {
+     "bazaar": "mirobod",
+     "price": 122000,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794880140000,
+     "day": 20774,
+     "pct": 2,
+     "som": 2500,
+     "level": "low"
+    },
+    {
+     "bazaar": "quyliq",
+     "price": 123000,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794883080000,
+     "day": 20774,
+     "pct": 1,
+     "som": 1500,
+     "level": "mid"
+    },
+    {
+     "bazaar": "farhod",
+     "price": 126000,
+     "n": 3,
+     "users": 3,
+     "last_at": 1794975000000,
+     "day": 20775,
+     "pct": -1,
+     "som": -1500,
+     "level": "mid"
+    },
+    {
+     "bazaar": "kadisha",
+     "price": 126000,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794972000000,
+     "day": 20775,
+     "pct": -1,
+     "som": -1500,
+     "level": "mid"
+    },
+    {
+     "bazaar": "yunusobod",
+     "price": 128000,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794978360000,
+     "day": 20775,
+     "pct": -3,
+     "som": -3500,
+     "level": "low"
+    }
+   ],
+   "best": "chorsu",
+   "spread": 7000
+  },
+  "tovuq": {
+   "product": "tovuq",
+   "city": 38000,
+   "rows": [
+    {
+     "bazaar": "oloy",
+     "price": 35500,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794979560000,
+     "day": 20775,
+     "pct": 7,
+     "som": 2500,
+     "level": "mid"
+    },
+    {
+     "bazaar": "chorsu",
+     "price": 37000,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794978900000,
+     "day": 20775,
+     "pct": 3,
+     "som": 1000,
+     "level": "mid"
+    },
+    {
+     "bazaar": "mirobod",
+     "price": 37000,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794976680000,
+     "day": 20775,
+     "pct": 3,
+     "som": 1000,
+     "level": "low"
+    },
+    {
+     "bazaar": "quyliq",
+     "price": 38000,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794888600000,
+     "day": 20774,
+     "pct": 0,
+     "som": 0,
+     "level": "low"
+    },
+    {
+     "bazaar": "farhod",
+     "price": 38000,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794885840000,
+     "day": 20774,
+     "pct": 0,
+     "som": 0,
+     "level": "mid"
+    },
+    {
+     "bazaar": "parkent",
+     "price": 38000,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794978780000,
+     "day": 20775,
+     "pct": 0,
+     "som": 0,
+     "level": "low"
+    },
+    {
+     "bazaar": "yunusobod",
+     "price": 38500,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794975720000,
+     "day": 20775,
+     "pct": -1,
+     "som": -500,
+     "level": "mid"
+    }
+   ],
+   "best": "oloy",
+   "spread": 3000
+  },
+  "kartoshka": {
+   "product": "kartoshka",
+   "city": 5500,
+   "rows": [
+    {
+     "bazaar": "chorsu",
+     "price": 4900,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794977700000,
+     "day": 20775,
+     "pct": 11,
+     "som": 600,
+     "level": "low"
+    },
+    {
+     "bazaar": "quyliq",
+     "price": 5200,
+     "n": 4,
+     "users": 4,
+     "last_at": 1794978060000,
+     "day": 20775,
+     "pct": 5,
+     "som": 300,
+     "level": "high"
+    },
+    {
+     "bazaar": "farhod",
+     "price": 5400,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794978780000,
+     "day": 20775,
+     "pct": 2,
+     "som": 100,
+     "level": "low"
+    },
+    {
+     "bazaar": "kadisha",
+     "price": 5500,
+     "n": 3,
+     "users": 3,
+     "last_at": 1794890880000,
+     "day": 20774,
+     "pct": 0,
+     "som": 0,
+     "level": "mid"
+    },
+    {
+     "bazaar": "parkent",
+     "price": 5500,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794976860000,
+     "day": 20775,
+     "pct": 0,
+     "som": 0,
+     "level": "mid"
+    },
+    {
+     "bazaar": "mirobod",
+     "price": 5600,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794973320000,
+     "day": 20775,
+     "pct": -2,
+     "som": -100,
+     "level": "mid"
+    },
+    {
+     "bazaar": "oloy",
+     "price": 5700,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794969960000,
+     "day": 20775,
+     "pct": -4,
+     "som": -200,
+     "level": "low"
+    },
+    {
+     "bazaar": "yunusobod",
+     "price": 5800,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794978300000,
+     "day": 20775,
+     "pct": -5,
+     "som": -300,
+     "level": "mid"
+    }
+   ],
+   "best": "chorsu",
+   "spread": 900
+  },
+  "piyoz": {
+   "product": "piyoz",
+   "city": 7100,
+   "rows": [
+    {
+     "bazaar": "chorsu",
+     "price": 6200,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794977400000,
+     "day": 20775,
+     "pct": 13,
+     "som": 900,
+     "level": "low"
+    },
+    {
+     "bazaar": "quyliq",
+     "price": 6600,
+     "n": 4,
+     "users": 4,
+     "last_at": 1794978600000,
+     "day": 20775,
+     "pct": 7,
+     "som": 500,
+     "level": "high"
+    },
+    {
+     "bazaar": "farhod",
+     "price": 6800,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794979560000,
+     "day": 20775,
+     "pct": 4,
+     "som": 300,
+     "level": "mid"
+    },
+    {
+     "bazaar": "parkent",
+     "price": 7000,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794977340000,
+     "day": 20775,
+     "pct": 1,
+     "som": 100,
+     "level": "mid"
+    },
+    {
+     "bazaar": "oloy",
+     "price": 7100,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794971400000,
+     "day": 20775,
+     "pct": 0,
+     "som": 0,
+     "level": "mid"
+    },
+    {
+     "bazaar": "kadisha",
+     "price": 7100,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794890820000,
+     "day": 20774,
+     "pct": 0,
+     "som": 0,
+     "level": "mid"
+    },
+    {
+     "bazaar": "mirobod",
+     "price": 7200,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794974280000,
+     "day": 20775,
+     "pct": -1,
+     "som": -100,
+     "level": "mid"
+    },
+    {
+     "bazaar": "yunusobod",
+     "price": 7400,
+     "n": 3,
+     "users": 3,
+     "last_at": 1794892740000,
+     "day": 20774,
+     "pct": -4,
+     "som": -300,
+     "level": "mid"
+    }
+   ],
+   "best": "chorsu",
+   "spread": 1200
+  },
+  "sabzi": {
+   "product": "sabzi",
+   "city": 4400,
+   "rows": [
+    {
+     "bazaar": "chorsu",
+     "price": 3800,
+     "n": 3,
+     "users": 3,
+     "last_at": 1794977760000,
+     "day": 20775,
+     "pct": 14,
+     "som": 600,
+     "level": "mid"
+    },
+    {
+     "bazaar": "quyliq",
+     "price": 4100,
+     "n": 3,
+     "users": 3,
+     "last_at": 1794976500000,
+     "day": 20775,
+     "pct": 7,
+     "som": 300,
+     "level": "mid"
+    },
+    {
+     "bazaar": "farhod",
+     "price": 4300,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794972600000,
+     "day": 20775,
+     "pct": 2,
+     "som": 100,
+     "level": "low"
+    },
+    {
+     "bazaar": "kadisha",
+     "price": 4300,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794970080000,
+     "day": 20775,
+     "pct": 2,
+     "som": 100,
+     "level": "mid"
+    },
+    {
+     "bazaar": "mirobod",
+     "price": 4400,
+     "n": 4,
+     "users": 4,
+     "last_at": 1794978420000,
+     "day": 20775,
+     "pct": 0,
+     "som": 0,
+     "level": "high"
+    },
+    {
+     "bazaar": "parkent",
+     "price": 4400,
+     "n": 3,
+     "users": 3,
+     "last_at": 1794976380000,
+     "day": 20775,
+     "pct": 0,
+     "som": 0,
+     "level": "mid"
+    },
+    {
+     "bazaar": "oloy",
+     "price": 4500,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794970440000,
+     "day": 20775,
+     "pct": -2,
+     "som": -100,
+     "level": "mid"
+    },
+    {
+     "bazaar": "yunusobod",
+     "price": 4600,
+     "n": 4,
+     "users": 4,
+     "last_at": 1794977100000,
+     "day": 20775,
+     "pct": -5,
+     "som": -200,
+     "level": "high"
+    }
+   ],
+   "best": "chorsu",
+   "spread": 800
+  },
+  "pomidor": {
+   "product": "pomidor",
+   "city": 14300,
+   "rows": [
+    {
+     "bazaar": "chorsu",
+     "price": 12500,
+     "n": 4,
+     "users": 4,
+     "last_at": 1794976800000,
+     "day": 20775,
+     "pct": 13,
+     "som": 1800,
+     "level": "high"
+    },
+    {
+     "bazaar": "quyliq",
+     "price": 13000,
+     "n": 3,
+     "users": 3,
+     "last_at": 1794977040000,
+     "day": 20775,
+     "pct": 9,
+     "som": 1300,
+     "level": "mid"
+    },
+    {
+     "bazaar": "farhod",
+     "price": 13500,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794975180000,
+     "day": 20775,
+     "pct": 6,
+     "som": 800,
+     "level": "low"
+    },
+    {
+     "bazaar": "kadisha",
+     "price": 14000,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794974640000,
+     "day": 20775,
+     "pct": 2,
+     "som": 300,
+     "level": "mid"
+    },
+    {
+     "bazaar": "oloy",
+     "price": 14500,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794973080000,
+     "day": 20775,
+     "pct": -1,
+     "som": -200,
+     "level": "mid"
+    },
+    {
+     "bazaar": "mirobod",
+     "price": 14500,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794890460000,
+     "day": 20774,
+     "pct": -1,
+     "som": -200,
+     "level": "mid"
+    },
+    {
+     "bazaar": "yunusobod",
+     "price": 14500,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794883320000,
+     "day": 20774,
+     "pct": -1,
+     "som": -200,
+     "level": "low"
+    },
+    {
+     "bazaar": "parkent",
+     "price": 14500,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794969240000,
+     "day": 20775,
+     "pct": -1,
+     "som": -200,
+     "level": "low"
+    }
+   ],
+   "best": "chorsu",
+   "spread": 2000
+  },
+  "bodring": {
+   "product": "bodring",
+   "city": 13500,
+   "rows": [
+    {
+     "bazaar": "quyliq",
+     "price": 12500,
+     "n": 3,
+     "users": 3,
+     "last_at": 1794891360000,
+     "day": 20774,
+     "pct": 7,
+     "som": 1000,
+     "level": "mid"
+    },
+    {
+     "bazaar": "farhod",
+     "price": 13000,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794970920000,
+     "day": 20775,
+     "pct": 4,
+     "som": 500,
+     "level": "mid"
+    },
+    {
+     "bazaar": "parkent",
+     "price": 13000,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794971340000,
+     "day": 20775,
+     "pct": 4,
+     "som": 500,
+     "level": "low"
+    },
+    {
+     "bazaar": "oloy",
+     "price": 13500,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794967500000,
+     "day": 20775,
+     "pct": 0,
+     "som": 0,
+     "level": "low"
+    },
+    {
+     "bazaar": "mirobod",
+     "price": 13500,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794966600000,
+     "day": 20775,
+     "pct": 0,
+     "som": 0,
+     "level": "low"
+    },
+    {
+     "bazaar": "kadisha",
+     "price": 13500,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794972240000,
+     "day": 20775,
+     "pct": 0,
+     "som": 0,
+     "level": "mid"
+    },
+    {
+     "bazaar": "yunusobod",
+     "price": 14000,
+     "n": 3,
+     "users": 3,
+     "last_at": 1794979260000,
+     "day": 20775,
+     "pct": -4,
+     "som": -500,
+     "level": "mid"
+    }
+   ],
+   "best": "quyliq",
+   "spread": 1500
+  },
+  "karam": {
+   "product": "karam",
+   "city": 3700,
+   "rows": [
+    {
+     "bazaar": "chorsu",
+     "price": 3300,
+     "n": 3,
+     "users": 3,
+     "last_at": 1794978540000,
+     "day": 20775,
+     "pct": 11,
+     "som": 400,
+     "level": "mid"
+    },
+    {
+     "bazaar": "quyliq",
+     "price": 3600,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794885900000,
+     "day": 20774,
+     "pct": 3,
+     "som": 100,
+     "level": "low"
+    },
+    {
+     "bazaar": "farhod",
+     "price": 3600,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794966300000,
+     "day": 20775,
+     "pct": 3,
+     "som": 100,
+     "level": "low"
+    },
+    {
+     "bazaar": "mirobod",
+     "price": 3700,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794971580000,
+     "day": 20775,
+     "pct": 0,
+     "som": 0,
+     "level": "low"
+    },
+    {
+     "bazaar": "kadisha",
+     "price": 3700,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794972960000,
+     "day": 20775,
+     "pct": 0,
+     "som": 0,
+     "level": "mid"
+    },
+    {
+     "bazaar": "parkent",
+     "price": 3700,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794967800000,
+     "day": 20775,
+     "pct": 0,
+     "som": 0,
+     "level": "low"
+    },
+    {
+     "bazaar": "oloy",
+     "price": 3900,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794883200000,
+     "day": 20774,
+     "pct": -5,
+     "som": -200,
+     "level": "mid"
+    },
+    {
+     "bazaar": "yunusobod",
+     "price": 3900,
+     "n": 3,
+     "users": 3,
+     "last_at": 1794977340000,
+     "day": 20775,
+     "pct": -5,
+     "som": -200,
+     "level": "mid"
+    }
+   ],
+   "best": "chorsu",
+   "spread": 600
+  },
+  "olma": {
+   "product": "olma",
+   "city": 14000,
+   "rows": [
+    {
+     "bazaar": "quyliq",
+     "price": 13000,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794971100000,
+     "day": 20775,
+     "pct": 7,
+     "som": 1000,
+     "level": "low"
+    },
+    {
+     "bazaar": "chorsu",
+     "price": 13500,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794975360000,
+     "day": 20775,
+     "pct": 4,
+     "som": 500,
+     "level": "mid"
+    },
+    {
+     "bazaar": "farhod",
+     "price": 14000,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794969000000,
+     "day": 20775,
+     "pct": 0,
+     "som": 0,
+     "level": "low"
+    },
+    {
+     "bazaar": "kadisha",
+     "price": 14000,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794978300000,
+     "day": 20775,
+     "pct": 0,
+     "som": 0,
+     "level": "low"
+    },
+    {
+     "bazaar": "oloy",
+     "price": 14500,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794880800000,
+     "day": 20774,
+     "pct": -4,
+     "som": -500,
+     "level": "low"
+    },
+    {
+     "bazaar": "mirobod",
+     "price": 14500,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794973320000,
+     "day": 20775,
+     "pct": -4,
+     "som": -500,
+     "level": "low"
+    },
+    {
+     "bazaar": "parkent",
+     "price": 14500,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794970080000,
+     "day": 20775,
+     "pct": -4,
+     "som": -500,
+     "level": "mid"
+    }
+   ],
+   "best": "quyliq",
+   "spread": 1500
+  },
+  "lazer": {
+   "product": "lazer",
+   "city": 18500,
+   "rows": [
+    {
+     "bazaar": "chorsu",
+     "price": 18500,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794885240000,
+     "day": 20774,
+     "pct": 0,
+     "som": 0,
+     "level": "low"
+    },
+    {
+     "bazaar": "mirobod",
+     "price": 18500,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794879960000,
+     "day": 20774,
+     "pct": 0,
+     "som": 0,
+     "level": "low"
+    },
+    {
+     "bazaar": "quyliq",
+     "price": 18500,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794886920000,
+     "day": 20774,
+     "pct": 0,
+     "som": 0,
+     "level": "mid"
+    },
+    {
+     "bazaar": "farhod",
+     "price": 18500,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794970860000,
+     "day": 20775,
+     "pct": 0,
+     "som": 0,
+     "level": "low"
+    },
+    {
+     "bazaar": "oloy",
+     "price": 19000,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794975240000,
+     "day": 20775,
+     "pct": -3,
+     "som": -500,
+     "level": "low"
+    },
+    {
+     "bazaar": "yunusobod",
+     "price": 19000,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794975180000,
+     "day": 20775,
+     "pct": -3,
+     "som": -500,
+     "level": "low"
+    },
+    {
+     "bazaar": "kadisha",
+     "price": 19000,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794966480000,
+     "day": 20775,
+     "pct": -3,
+     "som": -500,
+     "level": "low"
+    }
+   ],
+   "best": "chorsu",
+   "spread": 500
+  },
+  "devzira": {
+   "product": "devzira",
+   "city": 32800,
+   "rows": [
+    {
+     "bazaar": "mirobod",
+     "price": 32000,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794969720000,
+     "day": 20775,
+     "pct": 2,
+     "som": 800,
+     "level": "mid"
+    },
+    {
+     "bazaar": "oloy",
+     "price": 32500,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794974220000,
+     "day": 20775,
+     "pct": 1,
+     "som": 300,
+     "level": "low"
+    },
+    {
+     "bazaar": "quyliq",
+     "price": 32500,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794970980000,
+     "day": 20775,
+     "pct": 1,
+     "som": 300,
+     "level": "low"
+    },
+    {
+     "bazaar": "chorsu",
+     "price": 33000,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794881820000,
+     "day": 20774,
+     "pct": -1,
+     "som": -200,
+     "level": "low"
+    },
+    {
+     "bazaar": "farhod",
+     "price": 33000,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794975960000,
+     "day": 20775,
+     "pct": -1,
+     "som": -200,
+     "level": "low"
+    },
+    {
+     "bazaar": "kadisha",
+     "price": 33000,
+     "n": 3,
+     "users": 3,
+     "last_at": 1794892080000,
+     "day": 20774,
+     "pct": -1,
+     "som": -200,
+     "level": "mid"
+    }
+   ],
+   "best": "mirobod",
+   "spread": 1000
+  },
+  "un": {
+   "product": "un",
+   "city": 6600,
+   "rows": [
+    {
+     "bazaar": "oloy",
+     "price": 6300,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794970140000,
+     "day": 20775,
+     "pct": 5,
+     "som": 300,
+     "level": "low"
+    },
+    {
+     "bazaar": "farhod",
+     "price": 6400,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794886980000,
+     "day": 20774,
+     "pct": 3,
+     "som": 200,
+     "level": "low"
+    },
+    {
+     "bazaar": "chorsu",
+     "price": 6500,
+     "n": 3,
+     "users": 3,
+     "last_at": 1794978480000,
+     "day": 20775,
+     "pct": 2,
+     "som": 100,
+     "level": "mid"
+    },
+    {
+     "bazaar": "mirobod",
+     "price": 6600,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794882060000,
+     "day": 20774,
+     "pct": 0,
+     "som": 0,
+     "level": "low"
+    },
+    {
+     "bazaar": "kadisha",
+     "price": 6600,
+     "n": 3,
+     "users": 3,
+     "last_at": 1794978480000,
+     "day": 20775,
+     "pct": 0,
+     "som": 0,
+     "level": "mid"
+    },
+    {
+     "bazaar": "parkent",
+     "price": 6700,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794880560000,
+     "day": 20774,
+     "pct": -2,
+     "som": -100,
+     "level": "low"
+    }
+   ],
+   "best": "oloy",
+   "spread": 400
+  },
+  "yog": {
+   "product": "yog",
+   "city": 24000,
+   "rows": [
+    {
+     "bazaar": "oloy",
+     "price": 23500,
+     "n": 3,
+     "users": 3,
+     "last_at": 1794979200000,
+     "day": 20775,
+     "pct": 2,
+     "som": 500,
+     "level": "mid"
+    },
+    {
+     "bazaar": "mirobod",
+     "price": 23500,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794977520000,
+     "day": 20775,
+     "pct": 2,
+     "som": 500,
+     "level": "low"
+    },
+    {
+     "bazaar": "farhod",
+     "price": 23500,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794972240000,
+     "day": 20775,
+     "pct": 2,
+     "som": 500,
+     "level": "low"
+    },
+    {
+     "bazaar": "chorsu",
+     "price": 24000,
+     "n": 3,
+     "users": 3,
+     "last_at": 1794979440000,
+     "day": 20775,
+     "pct": 0,
+     "som": 0,
+     "level": "mid"
+    },
+    {
+     "bazaar": "quyliq",
+     "price": 24000,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794973020000,
+     "day": 20775,
+     "pct": 0,
+     "som": 0,
+     "level": "low"
+    },
+    {
+     "bazaar": "kadisha",
+     "price": 24000,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794974280000,
+     "day": 20775,
+     "pct": 0,
+     "som": 0,
+     "level": "mid"
+    },
+    {
+     "bazaar": "yunusobod",
+     "price": 24500,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794975600000,
+     "day": 20775,
+     "pct": -2,
+     "som": -500,
+     "level": "mid"
+    },
+    {
+     "bazaar": "parkent",
+     "price": 24500,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794970560000,
+     "day": 20775,
+     "pct": -2,
+     "som": -500,
+     "level": "mid"
+    }
+   ],
+   "best": "oloy",
+   "spread": 1000
+  },
+  "shakar": {
+   "product": "shakar",
+   "city": 13400,
+   "rows": [
+    {
+     "bazaar": "oloy",
+     "price": 12900,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794886620000,
+     "day": 20774,
+     "pct": 4,
+     "som": 500,
+     "level": "low"
+    },
+    {
+     "bazaar": "quyliq",
+     "price": 13300,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794972000000,
+     "day": 20775,
+     "pct": 1,
+     "som": 100,
+     "level": "mid"
+    },
+    {
+     "bazaar": "chorsu",
+     "price": 13400,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794976380000,
+     "day": 20775,
+     "pct": 0,
+     "som": 0,
+     "level": "low"
+    },
+    {
+     "bazaar": "farhod",
+     "price": 13400,
+     "n": 3,
+     "users": 3,
+     "last_at": 1794977220000,
+     "day": 20775,
+     "pct": 0,
+     "som": 0,
+     "level": "mid"
+    },
+    {
+     "bazaar": "kadisha",
+     "price": 13400,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794976320000,
+     "day": 20775,
+     "pct": 0,
+     "som": 0,
+     "level": "low"
+    },
+    {
+     "bazaar": "parkent",
+     "price": 13500,
+     "n": 3,
+     "users": 3,
+     "last_at": 1794977760000,
+     "day": 20775,
+     "pct": -1,
+     "som": -100,
+     "level": "mid"
+    }
+   ],
+   "best": "oloy",
+   "spread": 600
+  },
+  "tuxum": {
+   "product": "tuxum",
+   "city": 16000,
+   "rows": [
+    {
+     "bazaar": "oloy",
+     "price": 15500,
+     "n": 4,
+     "users": 4,
+     "last_at": 1794891600000,
+     "day": 20774,
+     "pct": 3,
+     "som": 500,
+     "level": "high"
+    },
+    {
+     "bazaar": "quyliq",
+     "price": 15500,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794974160000,
+     "day": 20775,
+     "pct": 3,
+     "som": 500,
+     "level": "mid"
+    },
+    {
+     "bazaar": "chorsu",
+     "price": 16000,
+     "n": 4,
+     "users": 4,
+     "last_at": 1794979080000,
+     "day": 20775,
+     "pct": 0,
+     "som": 0,
+     "level": "high"
+    },
+    {
+     "bazaar": "mirobod",
+     "price": 16000,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794888780000,
+     "day": 20774,
+     "pct": 0,
+     "som": 0,
+     "level": "low"
+    },
+    {
+     "bazaar": "kadisha",
+     "price": 16000,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794976560000,
+     "day": 20775,
+     "pct": 0,
+     "som": 0,
+     "level": "mid"
+    },
+    {
+     "bazaar": "yunusobod",
+     "price": 16500,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794978360000,
+     "day": 20775,
+     "pct": -3,
+     "som": -500,
+     "level": "mid"
+    },
+    {
+     "bazaar": "farhod",
+     "price": 16500,
+     "n": 2,
+     "users": 2,
+     "last_at": 1794974040000,
+     "day": 20775,
+     "pct": -3,
+     "som": -500,
+     "level": "mid"
+    },
+    {
+     "bazaar": "parkent",
+     "price": 16500,
+     "n": 1,
+     "users": 1,
+     "last_at": 1794975420000,
+     "day": 20775,
+     "pct": -3,
+     "som": -500,
+     "level": "low"
+    }
+   ],
+   "best": "oloy",
+   "spread": 1000
+  }
+ },
+ "history": {
+  "mol": {
+   "len": 90,
+   "digest": 3372645420,
+   "last": [
+    {
+     "day": 20774,
+     "city": 114000,
+     "lo": 104000,
+     "hi": 117000,
+     "by": {
+      "chorsu": 112000,
+      "farhod": 114000,
+      "kadisha": 114000,
+      "mirobod": 114000,
+      "oloy": 104000,
+      "parkent": 117000,
+      "quyliq": 110000,
+      "yunusobod": 116000
+     }
+    },
+    {
+     "day": 20775,
+     "city": 114500,
+     "lo": 105000,
+     "hi": 120000,
+     "by": {
+      "chorsu": 112000,
+      "farhod": 115000,
+      "kadisha": 118000,
+      "mirobod": 113000,
+      "oloy": 105000,
+      "parkent": 115000,
+      "quyliq": 114000,
+      "yunusobod": 120000
+     }
+    }
+   ]
+  },
+  "qoy": {
+   "len": 90,
+   "digest": 1520188542,
+   "last": [
+    {
+     "day": 20774,
+     "city": 122000,
+     "lo": 121000,
+     "hi": 123000,
+     "by": {
+      "chorsu": 121000,
+      "farhod": 122000,
+      "mirobod": 122000,
+      "quyliq": 123000
+     }
+    },
+    {
+     "day": 20775,
+     "city": 126000,
+     "lo": 126000,
+     "hi": 128000,
+     "by": {
+      "farhod": 126000,
+      "kadisha": 126000,
+      "yunusobod": 128000
+     }
+    }
+   ]
+  },
+  "tovuq": {
+   "len": 90,
+   "digest": 995288677,
+   "last": [
+    {
+     "day": 20774,
+     "city": 38000,
+     "lo": 35500,
+     "hi": 39000,
+     "by": {
+      "chorsu": 37000,
+      "farhod": 38000,
+      "mirobod": 37000,
+      "oloy": 35500,
+      "parkent": 39000,
+      "quyliq": 38000,
+      "yunusobod": 39000
+     }
+    },
+    {
+     "day": 20775,
+     "city": 37000,
+     "lo": 35500,
+     "hi": 38500,
+     "by": {
+      "chorsu": 37000,
+      "mirobod": 37000,
+      "oloy": 35500,
+      "parkent": 38000,
+      "yunusobod": 38500
+     }
+    }
+   ]
+  },
+  "kartoshka": {
+   "len": 90,
+   "digest": 263217219,
+   "last": [
+    {
+     "day": 20774,
+     "city": 5500,
+     "lo": 5000,
+     "hi": 5800,
+     "by": {
+      "chorsu": 5000,
+      "farhod": 5400,
+      "kadisha": 5500,
+      "oloy": 5700,
+      "parkent": 5500,
+      "quyliq": 5200,
+      "yunusobod": 5800
+     }
+    },
+    {
+     "day": 20775,
+     "city": 5500,
+     "lo": 4900,
+     "hi": 5800,
+     "by": {
+      "chorsu": 4900,
+      "farhod": 5400,
+      "mirobod": 5600,
+      "oloy": 5700,
+      "parkent": 5500,
+      "quyliq": 5200,
+      "yunusobod": 5800
+     }
+    }
+   ]
+  },
+  "piyoz": {
+   "len": 90,
+   "digest": 2270974480,
+   "last": [
+    {
+     "day": 20774,
+     "city": 7100,
+     "lo": 6300,
+     "hi": 7400,
+     "by": {
+      "chorsu": 6300,
+      "farhod": 6900,
+      "kadisha": 7100,
+      "mirobod": 7300,
+      "oloy": 7400,
+      "parkent": 7000,
+      "quyliq": 6700,
+      "yunusobod": 7400
+     }
+    },
+    {
+     "day": 20775,
+     "city": 6900,
+     "lo": 6200,
+     "hi": 7200,
+     "by": {
+      "chorsu": 6200,
+      "farhod": 6800,
+      "mirobod": 7200,
+      "oloy": 7100,
+      "parkent": 7000,
+      "quyliq": 6600
+     }
+    }
+   ]
+  },
+  "sabzi": {
+   "len": 90,
+   "digest": 2708807109,
+   "last": [
+    {
+     "day": 20774,
+     "city": 4300,
+     "lo": 4100,
+     "hi": 4500,
+     "by": {
+      "farhod": 4300,
+      "kadisha": 4300,
+      "mirobod": 4400,
+      "parkent": 4300,
+      "quyliq": 4100,
+      "yunusobod": 4500
+     }
+    },
+    {
+     "day": 20775,
+     "city": 4400,
+     "lo": 3800,
+     "hi": 4600,
+     "by": {
+      "chorsu": 3800,
+      "farhod": 4300,
+      "kadisha": 4300,
+      "mirobod": 4400,
+      "oloy": 4500,
+      "parkent": 4400,
+      "quyliq": 4100,
+      "yunusobod": 4600
+     }
+    }
+   ]
+  },
+  "pomidor": {
+   "len": 90,
+   "digest": 879674632,
+   "last": [
+    {
+     "day": 20774,
+     "city": 14000,
+     "lo": 12500,
+     "hi": 14500,
+     "by": {
+      "chorsu": 12500,
+      "farhod": 13500,
+      "kadisha": 14000,
+      "mirobod": 14500,
+      "oloy": 14000,
+      "quyliq": 13000,
+      "yunusobod": 14500
+     }
+    },
+    {
+     "day": 20775,
+     "city": 13800,
+     "lo": 12500,
+     "hi": 14500,
+     "by": {
+      "chorsu": 12500,
+      "farhod": 13500,
+      "kadisha": 14000,
+      "oloy": 14500,
+      "parkent": 14500,
+      "quyliq": 13000
+     }
+    }
+   ]
+  },
+  "bodring": {
+   "len": 90,
+   "digest": 151118336,
+   "last": [
+    {
+     "day": 20774,
+     "city": 13500,
+     "lo": 12500,
+     "hi": 14000,
+     "by": {
+      "farhod": 12500,
+      "mirobod": 13500,
+      "oloy": 14000,
+      "parkent": 13500,
+      "quyliq": 12500,
+      "yunusobod": 13500
+     }
+    },
+    {
+     "day": 20775,
+     "city": 13500,
+     "lo": 13000,
+     "hi": 14000,
+     "by": {
+      "farhod": 13000,
+      "kadisha": 13500,
+      "mirobod": 13500,
+      "oloy": 13500,
+      "parkent": 13000,
+      "yunusobod": 14000
+     }
+    }
+   ]
+  },
+  "karam": {
+   "len": 90,
+   "digest": 2239513221,
+   "last": [
+    {
+     "day": 20774,
+     "city": 3700,
+     "lo": 3300,
+     "hi": 3900,
+     "by": {
+      "chorsu": 3300,
+      "farhod": 3700,
+      "mirobod": 3700,
+      "oloy": 3900,
+      "parkent": 3700,
+      "quyliq": 3600
+     }
+    },
+    {
+     "day": 20775,
+     "city": 3700,
+     "lo": 3300,
+     "hi": 3900,
+     "by": {
+      "chorsu": 3300,
+      "farhod": 3600,
+      "kadisha": 3700,
+      "mirobod": 3700,
+      "parkent": 3700,
+      "yunusobod": 3900
+     }
+    }
+   ]
+  },
+  "olma": {
+   "len": 90,
+   "digest": 477456124,
+   "last": [
+    {
+     "day": 20774,
+     "city": 14500,
+     "lo": 13500,
+     "hi": 14500,
+     "by": {
+      "chorsu": 14000,
+      "farhod": 14500,
+      "kadisha": 14500,
+      "mirobod": 14500,
+      "oloy": 14500,
+      "parkent": 14000,
+      "quyliq": 13500
+     }
+    },
+    {
+     "day": 20775,
+     "city": 14000,
+     "lo": 13000,
+     "hi": 14500,
+     "by": {
+      "chorsu": 13500,
+      "farhod": 14000,
+      "kadisha": 14000,
+      "mirobod": 14500,
+      "parkent": 14500,
+      "quyliq": 13000
+     }
+    }
+   ]
+  },
+  "lazer": {
+   "len": 90,
+   "digest": 4031455009,
+   "last": [
+    {
+     "day": 20774,
+     "city": 18500,
+     "lo": 18500,
+     "hi": 19000,
+     "by": {
+      "chorsu": 18500,
+      "farhod": 19000,
+      "kadisha": 18500,
+      "mirobod": 18500,
+      "quyliq": 18500
+     }
+    },
+    {
+     "day": 20775,
+     "city": 19000,
+     "lo": 18500,
+     "hi": 19000,
+     "by": {
+      "farhod": 18500,
+      "kadisha": 19000,
+      "oloy": 19000,
+      "yunusobod": 19000
+     }
+    }
+   ]
+  },
+  "devzira": {
+   "len": 90,
+   "digest": 102998879,
+   "last": [
+    {
+     "day": 20774,
+     "city": 32000,
+     "lo": 31500,
+     "hi": 33000,
+     "by": {
+      "chorsu": 33000,
+      "farhod": 32000,
+      "kadisha": 33000,
+      "mirobod": 32000,
+      "oloy": 31500,
+      "quyliq": 32000
+     }
+    },
+    {
+     "day": 20775,
+     "city": 32500,
+     "lo": 32000,
+     "hi": 33000,
+     "by": {
+      "farhod": 33000,
+      "mirobod": 32000,
+      "oloy": 32500,
+      "quyliq": 32500
+     }
+    }
+   ]
+  },
+  "un": {
+   "len": 90,
+   "digest": 2136127725,
+   "last": [
+    {
+     "day": 20774,
+     "city": 6400,
+     "lo": 6300,
+     "hi": 6700,
+     "by": {
+      "chorsu": 6300,
+      "farhod": 6400,
+      "kadisha": 6400,
+      "mirobod": 6600,
+      "parkent": 6700
+     }
+    },
+    {
+     "day": 20775,
+     "city": 6500,
+     "lo": 6300,
+     "hi": 6600,
+     "by": {
+      "chorsu": 6500,
+      "kadisha": 6600,
+      "oloy": 6300
+     }
+    }
+   ]
+  },
+  "yog": {
+   "len": 90,
+   "digest": 2955972297,
+   "last": [
+    {
+     "day": 20774,
+     "city": 24000,
+     "lo": 23500,
+     "hi": 25000,
+     "by": {
+      "chorsu": 23500,
+      "kadisha": 24000,
+      "mirobod": 24000,
+      "oloy": 23500,
+      "parkent": 24500,
+      "quyliq": 23500,
+      "yunusobod": 25000
+     }
+    },
+    {
+     "day": 20775,
+     "city": 24000,
+     "lo": 23500,
+     "hi": 24500,
+     "by": {
+      "chorsu": 24000,
+      "farhod": 23500,
+      "kadisha": 24000,
+      "mirobod": 23500,
+      "oloy": 23500,
+      "parkent": 24500,
+      "quyliq": 24000,
+      "yunusobod": 24500
+     }
+    }
+   ]
+  },
+  "shakar": {
+   "len": 90,
+   "digest": 2093380094,
+   "last": [
+    {
+     "day": 20774,
+     "city": 13100,
+     "lo": 12900,
+     "hi": 13400,
+     "by": {
+      "farhod": 13400,
+      "kadisha": 13000,
+      "oloy": 12900,
+      "parkent": 13300,
+      "quyliq": 13100
+     }
+    },
+    {
+     "day": 20775,
+     "city": 13400,
+     "lo": 13300,
+     "hi": 13500,
+     "by": {
+      "chorsu": 13400,
+      "farhod": 13400,
+      "kadisha": 13400,
+      "parkent": 13500,
+      "quyliq": 13300
+     }
+    }
+   ]
+  },
+  "tuxum": {
+   "len": 90,
+   "digest": 4228765470,
+   "last": [
+    {
+     "day": 20774,
+     "city": 16000,
+     "lo": 15500,
+     "hi": 16500,
+     "by": {
+      "chorsu": 15500,
+      "farhod": 16000,
+      "mirobod": 16000,
+      "oloy": 15500,
+      "quyliq": 16000,
+      "yunusobod": 16500
+     }
+    },
+    {
+     "day": 20775,
+     "city": 16300,
+     "lo": 15500,
+     "hi": 16500,
+     "by": {
+      "chorsu": 16000,
+      "farhod": 16500,
+      "kadisha": 16000,
+      "parkent": 16500,
+      "quyliq": 15500,
+      "yunusobod": 16500
+     }
+    }
+   ]
+  }
+ },
+ "week": {
+  "mol": 4,
+  "qoy": 1,
+  "tovuq": 0,
+  "kartoshka": -1,
+  "piyoz": -12,
+  "sabzi": -2,
+  "pomidor": 9,
+  "bodring": -3,
+  "karam": -2,
+  "olma": -3,
+  "lazer": 0,
+  "devzira": 1,
+  "un": 0,
+  "yog": -1,
+  "shakar": -1,
+  "tuxum": 4
+ },
+ "digest": {
+  "down": [
+   [
+    "piyoz",
+    -12
+   ],
+   [
+    "bodring",
+    -3
+   ],
+   [
+    "olma",
+    -3
+   ]
+  ],
+  "up": [
+   [
+    "pomidor",
+    9
+   ],
+   [
+    "mol",
+    4
+   ],
+   [
+    "tuxum",
+    4
+   ]
+  ]
+ },
+ "spark_seed": {
+  "mol": "▁▁▁▃▂▃▅▅▆▅▆▇▇█",
+  "qoy": "▅▃▁▄▄▅▃▆▅▆█▄▂▆",
+  "tovuq": "▅▅▃▂▄▂▇▄▂▂█▄▄▁",
+  "kartoshka": "█▄█▄▁▄▄▄▁▁▄▄▁▁"
+ },
+ "confidence": [
+  {
+   "n": 1,
+   "level": "low",
+   "ago": 371,
+   "days": 0
+  },
+  {
+   "n": 2,
+   "level": "mid",
+   "ago": 692,
+   "days": 1
+  }
+ ],
+ "basket": [
+  {
+   "items": [
+    {
+     "product": "mol",
+     "qty": 20
+    },
+    {
+     "product": "kartoshka",
+     "qty": 30
+    },
+    {
+     "product": "piyoz",
+     "qty": 10
+    },
+    {
+     "product": "sabzi",
+     "qty": 20
+    },
+    {
+     "product": "tuxum",
+     "qty": 10
+    },
+    {
+     "product": "yog",
+     "qty": 10
+    },
+    {
+     "product": "devzira",
+     "qty": 10
+    }
+   ],
+   "here": null,
+   "out": {
+    "rows": [
+     {
+      "bazaar": "oloy",
+      "total": 314700,
+      "missing": []
+     },
+     {
+      "bazaar": "chorsu",
+      "total": 325500,
+      "missing": []
+     },
+     {
+      "bazaar": "mirobod",
+      "total": 330300,
+      "missing": []
+     },
+     {
+      "bazaar": "quyliq",
+      "total": 330400,
+      "missing": []
+     },
+     {
+      "bazaar": "farhod",
+      "total": 334600,
+      "missing": []
+     },
+     {
+      "bazaar": "kadisha",
+      "total": 341200,
+      "missing": []
+     },
+     {
+      "bazaar": "parkent",
+      "total": 303300,
+      "missing": [
+       "devzira"
+      ]
+     },
+     {
+      "bazaar": "yunusobod",
+      "total": 315000,
+      "missing": [
+       "devzira"
+      ]
+     }
+    ],
+    "best": "oloy",
+    "worst": "kadisha",
+    "best_total": 314700,
+    "saving": 26500,
+    "complete": 6
+   }
+  },
+  {
+   "items": [
+    {
+     "product": "mol",
+     "qty": 20
+    },
+    {
+     "product": "kartoshka",
+     "qty": 30
+    },
+    {
+     "product": "piyoz",
+     "qty": 10
+    },
+    {
+     "product": "sabzi",
+     "qty": 20
+    },
+    {
+     "product": "tuxum",
+     "qty": 10
+    },
+    {
+     "product": "yog",
+     "qty": 10
+    },
+    {
+     "product": "devzira",
+     "qty": 10
+    }
+   ],
+   "here": [
+    41.311,
+    69.2797
+   ],
+   "out": {
+    "rows": [
+     {
+      "bazaar": "oloy",
+      "total": 314700,
+      "missing": [],
+      "dist": 900
+     },
+     {
+      "bazaar": "chorsu",
+      "total": 325500,
+      "missing": [],
+      "dist": 4100
+     },
+     {
+      "bazaar": "mirobod",
+      "total": 330300,
+      "missing": [],
+      "dist": 1800
+     },
+     {
+      "bazaar": "quyliq",
+      "total": 330400,
+      "missing": [],
+      "dist": 8900
+     },
+     {
+      "bazaar": "farhod",
+      "total": 334600,
+      "missing": [],
+      "dist": 6900
+     },
+     {
+      "bazaar": "kadisha",
+      "total": 341200,
+      "missing": [],
+      "dist": 7400
+     },
+     {
+      "bazaar": "parkent",
+      "total": 303300,
+      "missing": [
+       "devzira"
+      ],
+      "dist": 5100
+     },
+     {
+      "bazaar": "yunusobod",
+      "total": 315000,
+      "missing": [
+       "devzira"
+      ],
+      "dist": 5900
+     }
+    ],
+    "best": "oloy",
+    "worst": "kadisha",
+    "best_total": 314700,
+    "saving": 26500,
+    "complete": 6
+   }
+  },
+  {
+   "items": [
+    {
+     "product": "pomidor",
+     "qty": 15
+    },
+    {
+     "product": "bodring",
+     "qty": 5
+    }
+   ],
+   "here": null,
+   "out": {
+    "rows": [
+     {
+      "bazaar": "quyliq",
+      "total": 25750,
+      "missing": []
+     },
+     {
+      "bazaar": "farhod",
+      "total": 26750,
+      "missing": []
+     },
+     {
+      "bazaar": "kadisha",
+      "total": 27750,
+      "missing": []
+     },
+     {
+      "bazaar": "parkent",
+      "total": 28250,
+      "missing": []
+     },
+     {
+      "bazaar": "oloy",
+      "total": 28500,
+      "missing": []
+     },
+     {
+      "bazaar": "mirobod",
+      "total": 28500,
+      "missing": []
+     },
+     {
+      "bazaar": "yunusobod",
+      "total": 28750,
+      "missing": []
+     },
+     {
+      "bazaar": "chorsu",
+      "total": 18750,
+      "missing": [
+       "bodring"
+      ]
+     }
+    ],
+    "best": "quyliq",
+    "worst": "yunusobod",
+    "best_total": 25750,
+    "saving": 3000,
+    "complete": 7
+   }
+  },
+  {
+   "items": [
+    {
+     "product": "pomidor",
+     "qty": 15
+    },
+    {
+     "product": "bodring",
+     "qty": 5
+    }
+   ],
+   "here": [
+    41.311,
+    69.2797
+   ],
+   "out": {
+    "rows": [
+     {
+      "bazaar": "quyliq",
+      "total": 25750,
+      "missing": [],
+      "dist": 8900
+     },
+     {
+      "bazaar": "farhod",
+      "total": 26750,
+      "missing": [],
+      "dist": 6900
+     },
+     {
+      "bazaar": "kadisha",
+      "total": 27750,
+      "missing": [],
+      "dist": 7400
+     },
+     {
+      "bazaar": "parkent",
+      "total": 28250,
+      "missing": [],
+      "dist": 5100
+     },
+     {
+      "bazaar": "oloy",
+      "total": 28500,
+      "missing": [],
+      "dist": 900
+     },
+     {
+      "bazaar": "mirobod",
+      "total": 28500,
+      "missing": [],
+      "dist": 1800
+     },
+     {
+      "bazaar": "yunusobod",
+      "total": 28750,
+      "missing": [],
+      "dist": 5900
+     },
+     {
+      "bazaar": "chorsu",
+      "total": 18750,
+      "missing": [
+       "bodring"
+      ],
+      "dist": 4100
+     }
+    ],
+    "best": "quyliq",
+    "worst": "yunusobod",
+    "best_total": 25750,
+    "saving": 3000,
+    "complete": 7
+   }
+  },
+  {
+   "items": [
+    {
+     "product": "qoy",
+     "qty": 5
+    }
+   ],
+   "here": null,
+   "out": {
+    "rows": [
+     {
+      "bazaar": "chorsu",
+      "total": 60500,
+      "missing": []
+     },
+     {
+      "bazaar": "mirobod",
+      "total": 61000,
+      "missing": []
+     },
+     {
+      "bazaar": "quyliq",
+      "total": 61500,
+      "missing": []
+     },
+     {
+      "bazaar": "farhod",
+      "total": 63000,
+      "missing": []
+     },
+     {
+      "bazaar": "kadisha",
+      "total": 63000,
+      "missing": []
+     },
+     {
+      "bazaar": "yunusobod",
+      "total": 64000,
+      "missing": []
+     }
+    ],
+    "best": "chorsu",
+    "worst": "yunusobod",
+    "best_total": 60500,
+    "saving": 3500,
+    "complete": 6
+   }
+  },
+  {
+   "items": [
+    {
+     "product": "qoy",
+     "qty": 5
+    }
+   ],
+   "here": [
+    41.311,
+    69.2797
+   ],
+   "out": {
+    "rows": [
+     {
+      "bazaar": "chorsu",
+      "total": 60500,
+      "missing": [],
+      "dist": 4100
+     },
+     {
+      "bazaar": "mirobod",
+      "total": 61000,
+      "missing": [],
+      "dist": 1800
+     },
+     {
+      "bazaar": "quyliq",
+      "total": 61500,
+      "missing": [],
+      "dist": 8900
+     },
+     {
+      "bazaar": "farhod",
+      "total": 63000,
+      "missing": [],
+      "dist": 6900
+     },
+     {
+      "bazaar": "kadisha",
+      "total": 63000,
+      "missing": [],
+      "dist": 7400
+     },
+     {
+      "bazaar": "yunusobod",
+      "total": 64000,
+      "missing": [],
+      "dist": 5900
+     }
+    ],
+    "best": "chorsu",
+    "worst": "yunusobod",
+    "best_total": 60500,
+    "saving": 3500,
+    "complete": 6
+   }
+  }
+ ],
+ "check_items": [
+  {
+   "in": [
+    {
+     "product": "mol",
+     "qty": 7
+    }
+   ],
+   "out": {
+    "error": "qty"
+   }
+  },
+  {
+   "in": [
+    {
+     "product": "nope",
+     "qty": 10
+    }
+   ],
+   "out": {
+    "error": "list"
+   }
+  },
+  {
+   "in": [
+    {
+     "product": "tuxum",
+     "qty": 0
+    }
+   ],
+   "out": {
+    "error": "qty"
+   }
+  },
+  {
+   "in": "x",
+   "out": {
+    "error": "list"
+   }
+  },
+  {
+   "in": [
+    {
+     "product": "mol",
+     "qty": 10
+    },
+    {
+     "product": "mol",
+     "qty": 5
+    }
+   ],
+   "out": {
+    "error": "list"
+   }
+  },
+  {
+   "in": [
+    {
+     "product": "un",
+     "qty": "20"
+    }
+   ],
+   "out": {
+    "ok": [
+     {
+      "product": "un",
+      "qty": 20
+     }
+    ]
+   }
+  },
+  {
+   "in": [
+    {
+     "product": "tuxum",
+     "qty": 30
+    }
+   ],
+   "out": {
+    "ok": [
+     {
+      "product": "tuxum",
+      "qty": 30
+     }
+    ]
+   }
+  }
+ ],
+ "distance": [
+  [
+   [
+    41.3265,
+    69.2355
+   ],
+   [
+    41.3265,
+    69.2355
+   ],
+   0
+  ],
+  [
+   [
+    41.3265,
+    69.2355
+   ],
+   [
+    41.3189,
+    69.2797
+   ],
+   3800
+  ],
+  [
+   [
+    41.3265,
+    69.2355
+   ],
+   [
+    41.2423,
+    69.3343
+   ],
+   12400
+  ],
+  [
+   [
+    41.3265,
+    69.2355
+   ],
+   [
+    41.364,
+    69.286
+   ],
+   5900
+  ],
+  [
+   [
+    41.3189,
+    69.2797
+   ],
+   [
+    41.3265,
+    69.2355
+   ],
+   3800
+  ],
+  [
+   [
+    41.3189,
+    69.2797
+   ],
+   [
+    41.3189,
+    69.2797
+   ],
+   0
+  ],
+  [
+   [
+    41.3189,
+    69.2797
+   ],
+   [
+    41.2423,
+    69.3343
+   ],
+   9600
+  ],
+  [
+   [
+    41.3189,
+    69.2797
+   ],
+   [
+    41.364,
+    69.286
+   ],
+   5000
+  ]
+ ],
+ "item_total": [
+  [
+   4500,
+   15,
+   6750
+  ],
+  [
+   112000,
+   20,
+   224000
+  ],
+  [
+   16000,
+   10,
+   16000
+  ],
+  [
+   16000,
+   7,
+   11200
+  ],
+  [
+   6500,
+   5,
+   3250
+  ],
+  [
+   333,
+   5,
+   167
+  ]
+ ],
+ "sentences": {
+  "uz": {
+   "money": [
+    "0 so'm",
+    "500 so'm",
+    "4 500 so'm",
+    "112 000 so'm",
+    "1 250 000 so'm"
+   ],
+   "date": [
+    "18-noyabr",
+    "1-yanvar"
+   ],
+   "per": [
+    "16 000 so'm/kg",
+    "16 000 so'm/l",
+    "16 000 so'm/10 ta"
+   ],
+   "amount": [
+    "1,5 kg",
+    "3 kg",
+    "1 l",
+    "10 ta",
+    "30 ta"
+   ],
+   "conf": [
+    "5 ta xabar, 40 daqiqa oldin",
+    "Kam ma'lumot · 1 ta xabar, hozirgina",
+    "3 ta xabar, 2 soat oldin",
+    "2 ta xabar, kechagi narx",
+    "Kam ma'lumot · 1 ta xabar, 3 kun oldin"
+   ],
+   "saving": [
+    "shahar o'rtachasidan 13% arzon",
+    "shahar o'rtachasi darajasida",
+    "shahar o'rtachasidan 4% qimmat"
+   ],
+   "short": [
+    "13% arzon",
+    "o'rtacha",
+    "4% qimmat"
+   ],
+   "change": [
+    "▼ 12%",
+    "▲ 9%",
+    "o'zgarmadi",
+    ""
+   ],
+   "signed": [
+    "−12%",
+    "+9%",
+    "0%"
+   ],
+   "thanks": "Rahmat! Chorsuda kartoshka: bugun 4 500 so'm (5 ta xabar)",
+   "cheap": "Chorsuda kartoshka 4 900 so'm — shahar o'rtachasidan 11% arzon",
+   "best": [
+    "Oloyda 287 000 so'm — eng qimmatidan 41 000 so'm tejaysiz",
+    "Oloyda 287 000 so'm"
+   ],
+   "km": [
+    "0 m",
+    "800 m",
+    "1 km",
+    "3,2 km",
+    "12,4 km"
+   ],
+   "alert": "🔔 Piyoz Chorsuda 5 800 so'm/kg — siz kutgan 6 000 so'mdan arzon.",
+   "line": "piyoz −12%"
+  },
+  "ru": {
+   "money": [
+    "0 сум",
+    "500 сум",
+    "4 500 сум",
+    "112 000 сум",
+    "1 250 000 сум"
+   ],
+   "date": [
+    "18 ноября",
+    "1 января"
+   ],
+   "per": [
+    "16 000 сум/кг",
+    "16 000 сум/л",
+    "16 000 сум/10 шт"
+   ],
+   "amount": [
+    "1,5 кг",
+    "3 кг",
+    "1 л",
+    "10 шт",
+    "30 шт"
+   ],
+   "conf": [
+    "сообщений: 5, 40 мин назад",
+    "Мало данных · сообщений: 1, только что",
+    "сообщений: 3, 2 ч назад",
+    "сообщений: 2, вчерашняя цена",
+    "Мало данных · сообщений: 1, 3 дн. назад"
+   ],
+   "saving": [
+    "на 13% дешевле среднего по городу",
+    "на уровне среднего по городу",
+    "на 4% дороже среднего по городу"
+   ],
+   "short": [
+    "на 13% дешевле",
+    "средняя",
+    "на 4% дороже"
+   ],
+   "change": [
+    "▼ 12%",
+    "▲ 9%",
+    "без изменений",
+    ""
+   ],
+   "signed": [
+    "−12%",
+    "+9%",
+    "0%"
+   ],
+   "thanks": "Спасибо! На Чорсу картофель: сегодня 4 500 сум (сообщений: 5)",
+   "cheap": "На Чорсу картофель 4 900 сум — на 11% дешевле среднего по городу",
+   "best": [
+    "На Алайском 287 000 сум — экономия 41 000 сум по сравнению с самым дорогим",
+    "На Алайском 287 000 сум"
+   ],
+   "km": [
+    "0 м",
+    "800 м",
+    "1 км",
+    "3,2 км",
+    "12,4 км"
+   ],
+   "alert": "🔔 Лук на Чорсу: 5 800 сум/кг — дешевле 6 000 сум, как вы просили.",
+   "line": "лук −12%"
+  }
+ }
+}
