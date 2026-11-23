@@ -89,7 +89,7 @@ async function thumb(page, phone, win) {
     g.font = '800 104px -apple-system, Segoe UI, Roboto, sans-serif';
     g.fillText('Bozor', 74, 262);
     g.fillText('Narxi', 74, 370);
-    ['Qayerda arzon?', 'Trol narxni buzolmaydi', 'Bozorlik ro'yxati hisobi'].forEach((t, i) => {
+    ['Qayerda arzon?', 'Trol narxni buzolmaydi', "Bozorlik ro'yxati hisobi"].forEach((t, i) => {
       g.fillStyle = ['#f2b544', '#ff8a65', '#7fd6a2'][i];
       g.beginPath(); g.arc(92, 452 + i * 58, 8, 0, 7); g.fill();
       g.fillStyle = '#eef3ee';

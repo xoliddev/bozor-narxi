@@ -3,6 +3,8 @@ or ``{text, app}``. Every screen has "⬅️ Orqaga" (or "🏠 Menyu"). demo/bot
 
 from __future__ import annotations
 
+import html
+
 from ..core import prices
 from ..core.clock import hhmm, local_minute
 from ..core.trust import round_to
@@ -70,7 +72,7 @@ def cheap(lang: str, p: dict, wc: dict, change: int | None, spark: str, bmap: di
         rows.append([{"text": t(lang, "btn.chart"), "url": f"{site}#/p/{p['id']}"}])
     rows.append(back(lang, "c"))
     if not wc["rows"]:
-        return f"<b>{name(lang, p)}</b>\n{t(lang, 'cheap.none')}", rows
+        return f"<b>{html.escape(name(lang, p), quote=False)}</b>\n{t(lang, 'cheap.none')}", rows
     head = t(lang, "cheap.title", product=name(lang, p), unit=t(lang, f"unit_long.{p['unit']}"), city=Raw(money(lang, wc["city"])),
              change=Raw(change_text(lang, change) or "—"))
     best = wc["rows"][0]
